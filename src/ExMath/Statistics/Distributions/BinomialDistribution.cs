@@ -1,7 +1,7 @@
 ﻿namespace ExMath.Statistics.Distributions
 {
     /// <summary>
-    /// Represents a binomial distribution
+    /// Represents a binomial distribution (paramter variable type is <see cref="uint"/>.
     /// </summary>
     public class BinomialDistribution : IDistribution<uint>
     {
