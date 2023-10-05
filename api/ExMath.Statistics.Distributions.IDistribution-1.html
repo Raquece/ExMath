@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IDistribution&lt;T&gt;
+ | ExMath </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IDistribution&lt;T&gt;
+ | ExMath ">
+      
+      <link rel="icon" href="../images/favicon.svg">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Raquece/ExMath/new/master/apiSpec/new?filename=ExMath_Statistics_Distributions_IDistribution_1.md&amp;value=---%0Auid%3A%20ExMath.Statistics.Distributions.IDistribution%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ExMath.Statistics.Distributions.IDistribution`1">
+
+
+
+  <h1 id="ExMath_Statistics_Distributions_IDistribution_1" data-uid="ExMath.Statistics.Distributions.IDistribution`1" class="text-break">
+    Interface IDistribution&lt;T&gt;
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ExMath.html">ExMath</a>.<a class="xref" href="ExMath.Statistics.html">Statistics</a>.<a class="xref" href="ExMath.Statistics.Distributions.html">Distributions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExMath.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a statistical distribution object</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDistribution&lt;T&gt; where T : struct, IComparable&lt;T&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The variable type</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="ExMath.Extensions.Cloning.html#ExMath_Extensions_Cloning_DeepClone__1___0_">Cloning.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability__0_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0)">
+  GetCumulativeProbability(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns tthe cumulative probability of the parameter occuring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetCumulativeProbability(T parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <span class="xref">T</span></dt>
+    <dd><p>The parameter to test</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The probability</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability__0_ExMath_Statistics_Distributions_CumulativeMode_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0,ExMath.Statistics.Distributions.CumulativeMode)">
+  GetCumulativeProbability(T, CumulativeMode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the cumulative probability of the parameter occuring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetCumulativeProbability(T parameter, CumulativeMode mode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <span class="xref">T</span></dt>
+    <dd><p>The parameter to test</p>
+</dd>
+    <dt><code>mode</code> <a class="xref" href="ExMath.Statistics.Distributions.CumulativeMode.html">CumulativeMode</a></dt>
+    <dd><p>The mode to calculate the probability.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The probability of the result.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetExpected_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetExpected*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetExpected" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetExpected">
+  GetExpected()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the mean or expected value of the distribution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetExpected()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The mean value</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetInverse_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetInverse*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetInverse_System_Double_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetInverse(System.Double)">
+  GetInverse(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the inverse of the distribution based on a quantile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T GetInverse(double quantile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quantile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The chance of the parameter occuring.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The parameter calculated from the inverse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetProbability_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetProbability*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetProbability__0_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetProbability(`0)">
+  GetProbability(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the probability of the parameter occuring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetProbability(T parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <span class="xref">T</span></dt>
+    <dd><p>The parameter to test</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The probability</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetStandardDeviation_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetStandardDeviation" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation">
+  GetStandardDeviation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the standard deviation of the distribution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetStandardDeviation()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The standard deviation</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Statistics_Distributions_IDistribution_1_GetVariance_" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetVariance*"></a>
+
+  <h3 id="ExMath_Statistics_Distributions_IDistribution_1_GetVariance" data-uid="ExMath.Statistics.Distributions.IDistribution`1.GetVariance">
+  GetVariance()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the variance of the distriubtion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetVariance()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The variance</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Statistics/Distributions/IDistribution.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

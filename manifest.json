@@ -1,0 +1,350 @@
+{
+  "source_base_path": "/home/runner/work/ExMath/ExMath/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.DirectedGraph-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.DirectedGraph-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.Graph-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.Graph-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.Relationship-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.Relationship-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.UndirectedGraph-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.UndirectedGraph-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.ExMathLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.ExMathLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Exceptions.InvalidNumericTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Exceptions.InvalidNumericTypeException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Extensions.Cloning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Extensions.Cloning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Extensions.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Extensions.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Extensions.Numerics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Extensions.Numerics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Geometry.Size.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Geometry.Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Geometry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Matrix.Matrix-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Matrix.Matrix-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Distributions.BinomialDistribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Distributions.BinomialDistribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Distributions.CumulativeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Distributions.CumulativeMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Distributions.IDistribution-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Distributions.IDistribution-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Distributions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Distributions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Testing.Equality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Testing.Equality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Testing.Hypothesis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Testing.Hypothesis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Testing.HypothesisTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Testing.HypothesisTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Statistics.Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Statistics.Testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

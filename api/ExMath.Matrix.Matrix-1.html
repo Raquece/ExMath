@@ -1,0 +1,1718 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Matrix&lt;T&gt;
+ | ExMath </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Matrix&lt;T&gt;
+ | ExMath ">
+      
+      <link rel="icon" href="../images/favicon.svg">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Raquece/ExMath/new/master/apiSpec/new?filename=ExMath_Matrix_Matrix_1.md&amp;value=---%0Auid%3A%20ExMath.Matrix.Matrix%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ExMath.Matrix.Matrix`1">
+
+
+
+  <h1 id="ExMath_Matrix_Matrix_1" data-uid="ExMath.Matrix.Matrix`1" class="text-break">
+    Class Matrix&lt;T&gt;
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ExMath.html">ExMath</a>.<a class="xref" href="ExMath.Matrix.html">Matrix</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExMath.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Contains data and logic for a matrix</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Matrix&lt;T&gt; : IEquatable&lt;Matrix&lt;T&gt;&gt;, ICloneable where T : struct</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of each element in the array</p>
+</dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Matrix&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="ExMath.Extensions.Cloning.html#ExMath_Extensions_Cloning_DeepClone__1___0_">Cloning.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ExMath_Matrix_Matrix_1__ctor_" data-uid="ExMath.Matrix.Matrix`1.#ctor*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1__ctor_System_Int32_System_Int32__0_" data-uid="ExMath.Matrix.Matrix`1.#ctor(System.Int32,System.Int32,`0)">
+  Matrix(int, int, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix&lt;T&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix(int rows, int columns, T def = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of rows in the matrix</p>
+</dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of columns in the matrix</p>
+</dd>
+    <dt><code>def</code> <span class="xref">T</span></dt>
+    <dd><p>The default value for each element in the list</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ExMath_Matrix_Matrix_1_Columns_" data-uid="ExMath.Matrix.Matrix`1.Columns*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Columns" data-uid="ExMath.Matrix.Matrix`1.Columns">
+  Columns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of columns in the matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Columns { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Data_" data-uid="ExMath.Matrix.Matrix`1.Data*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Data" data-uid="ExMath.Matrix.Matrix`1.Data">
+  Data
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the elements of the matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T[,] Data { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt>T[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_IsSquare_" data-uid="ExMath.Matrix.Matrix`1.IsSquare*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_IsSquare" data-uid="ExMath.Matrix.Matrix`1.IsSquare">
+  IsSquare
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets if the matrix identifies as a square matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSquare { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Rows_" data-uid="ExMath.Matrix.Matrix`1.Rows*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Rows" data-uid="ExMath.Matrix.Matrix`1.Rows">
+  Rows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of rows in the matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Rows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Size_" data-uid="ExMath.Matrix.Matrix`1.Size*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Size" data-uid="ExMath.Matrix.Matrix`1.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the dimensions of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size Size { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Geometry.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ExMath_Matrix_Matrix_1_Add_" data-uid="ExMath.Matrix.Matrix`1.Add*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0})">
+  Add(Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a matrix to this matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Matrix&lt;T&gt; addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>addition</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Add_" data-uid="ExMath.Matrix.Matrix`1.Add*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})">
+  Add(Matrix&lt;T&gt;, Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L538"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a matrix to this matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Add(Matrix&lt;T&gt; matrix, Matrix&lt;T&gt; addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>addition</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to add.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Add_" data-uid="ExMath.Matrix.Matrix`1.Add*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0___0_" data-uid="ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},`0)">
+  Add(Matrix&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a number to all elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Add(Matrix&lt;T&gt; matrix, T addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>addition</code> <span class="xref">T</span></dt>
+    <dd><p>The value to add to each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Add_" data-uid="ExMath.Matrix.Matrix`1.Add*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Add__0_" data-uid="ExMath.Matrix.Matrix`1.Add(`0)">
+  Add(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a number to all elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(T addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>addition</code> <span class="xref">T</span></dt>
+    <dd><p>The value to add to each element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_AddAt_" data-uid="ExMath.Matrix.Matrix`1.AddAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_AddAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32__0_" data-uid="ExMath.Matrix.Matrix`1.AddAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)">
+  AddAt(Matrix&lt;T&gt;, int, int, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a number to an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; AddAt(Matrix&lt;T&gt; matrix, int i, int j, T addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>addition</code> <span class="xref">T</span></dt>
+    <dd><p>The value to add to the element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_AddAt_" data-uid="ExMath.Matrix.Matrix`1.AddAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_AddAt_System_Int32_System_Int32__0_" data-uid="ExMath.Matrix.Matrix`1.AddAt(System.Int32,System.Int32,`0)">
+  AddAt(int, int, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a number to an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAt(int i, int j, T addition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>addition</code> <span class="xref">T</span></dt>
+    <dd><p>The value to add to the element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Clone_" data-uid="ExMath.Matrix.Matrix`1.Clone*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Clone" data-uid="ExMath.Matrix.Matrix`1.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs a shallow clone of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The cloned matrix</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Deserialize_" data-uid="ExMath.Matrix.Matrix`1.Deserialize*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Deserialize_System_IO_MemoryStream_" data-uid="ExMath.Matrix.Matrix`1.Deserialize(System.IO.MemoryStream)">
+  Deserialize(MemoryStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L470"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deserializes a MemoryStream into a Matrix object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Deserialize(MemoryStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a> containing the serialized matrix data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix&lt;T&gt;</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Equals_" data-uid="ExMath.Matrix.Matrix`1.Equals*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Equals_ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Equals(ExMath.Matrix.Matrix{`0})">
+  Equals(Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares whether two matrices are equal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Matrix&lt;T&gt; other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to compare</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If the matrices are equal</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Equals_" data-uid="ExMath.Matrix.Matrix`1.Equals*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Equals_System_Object_" data-uid="ExMath.Matrix.Matrix`1.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares whether two matrices are equal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The matrix to compare</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If the matrices are equal</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Find_" data-uid="ExMath.Matrix.Matrix`1.Find*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Find_System_Func__0_System_Boolean__" data-uid="ExMath.Matrix.Matrix`1.Find(System.Func{`0,System.Boolean})">
+  Find(Func&lt;T, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the first occurrence of a predicate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tuple&lt;int, int, T&gt; Find(Func&lt;T, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The predicate to match</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, T&gt;</dt>
+    <dd><p>The row, column and value of the match</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_FindAll_" data-uid="ExMath.Matrix.Matrix`1.FindAll*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_FindAll_System_Func__0_System_Boolean__" data-uid="ExMath.Matrix.Matrix`1.FindAll(System.Func{`0,System.Boolean})">
+  FindAll(Func&lt;T, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds all occurrences of a predicate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Tuple&lt;int, int, T&gt;&gt; FindAll(Func&lt;T, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The predicate to match</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, T&gt;&gt;</dt>
+    <dd><p>A list of the rows, columns and values of the matches</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_GetColumn_" data-uid="ExMath.Matrix.Matrix`1.GetColumn*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_GetColumn_System_Int32_" data-uid="ExMath.Matrix.Matrix`1.GetColumn(System.Int32)">
+  GetColumn(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a column from the matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T[] GetColumn(int col)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>col</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index of the column that is being retrieved</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>T[]</dt>
+    <dd><p>The array of values in that column</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_GetHashCode_" data-uid="ExMath.Matrix.Matrix`1.GetHashCode*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_GetHashCode" data-uid="ExMath.Matrix.Matrix`1.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the hash code of the object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The hash code of the object</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_GetRow_" data-uid="ExMath.Matrix.Matrix`1.GetRow*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_GetRow_System_Int32_" data-uid="ExMath.Matrix.Matrix`1.GetRow(System.Int32)">
+  GetRow(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a row from the matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T[] GetRow(int row)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>row</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index of the row that is being retrieved</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>T[]</dt>
+    <dd><p>The array of values in that row</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Map_" data-uid="ExMath.Matrix.Matrix`1.Map*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Map_ExMath_Matrix_Matrix__0__System_Func__0__0__" data-uid="ExMath.Matrix.Matrix`1.Map(ExMath.Matrix.Matrix{`0},System.Func{`0,`0})">
+  Map(Matrix&lt;T&gt;, Func&lt;T, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L611"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a function to all elements in a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Map(Matrix&lt;T&gt; matrix, Func&lt;T, T&gt; function)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</dt>
+    <dd><p>The function to map.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Map_" data-uid="ExMath.Matrix.Matrix`1.Map*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Map_System_Func__0__0__" data-uid="ExMath.Matrix.Matrix`1.Map(System.Func{`0,`0})">
+  Map(Func&lt;T, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a function to all elements in a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Map(Func&lt;T, T&gt; function)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</dt>
+    <dd><p>The function to map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_MapAt_" data-uid="ExMath.Matrix.Matrix`1.MapAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_MapAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32_System_Func__0__0__" data-uid="ExMath.Matrix.Matrix`1.MapAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Func{`0,`0})">
+  MapAt(Matrix&lt;T&gt;, int, int, Func&lt;T, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L626"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a function to an element in a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; MapAt(Matrix&lt;T&gt; matrix, int i, int j, Func&lt;T, T&gt; function)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the scalar to.</p>
+</dd>
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</dt>
+    <dd><p>The function to map.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_MapAt_" data-uid="ExMath.Matrix.Matrix`1.MapAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_MapAt_System_Int32_System_Int32_System_Func__0__0__" data-uid="ExMath.Matrix.Matrix`1.MapAt(System.Int32,System.Int32,System.Func{`0,`0})">
+  MapAt(int, int, Func&lt;T, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maps a function to an element in a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MapAt(int i, int j, Func&lt;T, T&gt; function)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</dt>
+    <dd><p>The function to map.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Multiply_" data-uid="ExMath.Matrix.Matrix`1.Multiply*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0})">
+  Multiply(Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two matrices together.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Multiply(Matrix&lt;T&gt; matrix)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix that the current object will be multiplied by.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Multiply_" data-uid="ExMath.Matrix.Matrix`1.Multiply*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})">
+  Multiply(Matrix&lt;T&gt;, Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L490"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two matrices together</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Multiply(Matrix&lt;T&gt; matrixA, Matrix&lt;T&gt; matrixB)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrixA</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The first matrix to multiply</p>
+</dd>
+    <dt><code>matrixB</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The second matrix to multiply</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The product matrix</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Multiply_" data-uid="ExMath.Matrix.Matrix`1.Multiply*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0___0_" data-uid="ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},`0)">
+  Multiply(Matrix&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L551"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies the matrix by a scalar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Multiply(Matrix&lt;T&gt; matrix, T scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the scalar to.</p>
+</dd>
+    <dt><code>scalar</code> <span class="xref">T</span></dt>
+    <dd><p>The scalar to multiply the matrix by.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix with the applied scalar product.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Multiply_" data-uid="ExMath.Matrix.Matrix`1.Multiply*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Multiply__0_" data-uid="ExMath.Matrix.Matrix`1.Multiply(`0)">
+  Multiply(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies the matrix by a scalar</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Multiply(T scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scalar</code> <span class="xref">T</span></dt>
+    <dd><p>The scalar to multiply the matrix by</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Serialize_" data-uid="ExMath.Matrix.Matrix`1.Serialize*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Serialize" data-uid="ExMath.Matrix.Matrix`1.Serialize">
+  Serialize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the matrix into a serializable object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemoryStream Serialize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></dt>
+    <dd><p>The serialized matrix, in memory stream form.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_SetAll_" data-uid="ExMath.Matrix.Matrix`1.SetAll*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_SetAll_ExMath_Matrix_Matrix__0___0_" data-uid="ExMath.Matrix.Matrix`1.SetAll(ExMath.Matrix.Matrix{`0},`0)">
+  SetAll(Matrix&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L598"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets all elements in matrix to one value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; SetAll(Matrix&lt;T&gt; matrix, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to set all elements as.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_SetAll_" data-uid="ExMath.Matrix.Matrix`1.SetAll*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_SetAll__0_" data-uid="ExMath.Matrix.Matrix`1.SetAll(`0)">
+  SetAll(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets all elements in matrix to one value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAll(T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to set all elements as.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_SetAt_" data-uid="ExMath.Matrix.Matrix`1.SetAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_SetAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32__0_" data-uid="ExMath.Matrix.Matrix`1.SetAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)">
+  SetAt(Matrix&lt;T&gt;, int, int, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L570"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets an individual element to a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; SetAt(Matrix&lt;T&gt; matrix, int i, int j, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the change to.</p>
+</dd>
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to set the element equal to.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The altered matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_SetAt_" data-uid="ExMath.Matrix.Matrix`1.SetAt*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_SetAt_System_Int32_System_Int32__0_" data-uid="ExMath.Matrix.Matrix`1.SetAt(System.Int32,System.Int32,`0)">
+  SetAt(int, int, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets an individual element to a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAt(int i, int j, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The row of the element.</p>
+</dd>
+    <dt><code>j</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The column of the element.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to set the element equal to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_ToString_" data-uid="ExMath.Matrix.Matrix`1.ToString*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_ToString" data-uid="ExMath.Matrix.Matrix`1.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays matrix info in string form.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string containing information about the matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Transpose_" data-uid="ExMath.Matrix.Matrix`1.Transpose*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Transpose" data-uid="ExMath.Matrix.Matrix`1.Transpose">
+  Transpose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transposes this matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix&lt;T&gt; Transpose()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The transposed matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_Transpose_" data-uid="ExMath.Matrix.Matrix`1.Transpose*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_Transpose_ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.Transpose(ExMath.Matrix.Matrix{`0})">
+  Transpose(Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L638"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transposes a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; Transpose(Matrix&lt;T&gt; matrix)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The matrix to apply the transformation to.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The transposed matrix.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="ExMath_Matrix_Matrix_1_op_Equality_" data-uid="ExMath.Matrix.Matrix`1.op_Equality*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_op_Equality_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.op_Equality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})">
+  operator ==(Matrix&lt;T&gt;, Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares whether two matrices are equal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Matrix&lt;T&gt; left, Matrix&lt;T&gt; right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The first matrix to compare</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The second matrix to compare</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If the matrices are equal</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_op_Inequality_" data-uid="ExMath.Matrix.Matrix`1.op_Inequality*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_op_Inequality_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.op_Inequality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})">
+  operator !=(Matrix&lt;T&gt;, Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares whether two matrices are not equal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Matrix&lt;T&gt; left, Matrix&lt;T&gt; right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The first matrix to compare</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The second matrix to compare</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If the matrices are not equal</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Matrix_Matrix_1_op_Multiply_" data-uid="ExMath.Matrix.Matrix`1.op_Multiply*"></a>
+
+  <h3 id="ExMath_Matrix_Matrix_1_op_Multiply_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__" data-uid="ExMath.Matrix.Matrix`1.op_Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})">
+  operator *(Matrix&lt;T&gt;, Matrix&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two matrices together</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix&lt;T&gt; operator *(Matrix&lt;T&gt; left, Matrix&lt;T&gt; right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The first matrix to multiply</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The second matrix to multiply</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Matrix.Matrix-1.html">Matrix</a>&lt;T&gt;</dt>
+    <dd><p>The product matrix</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Matrix/Matrix.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

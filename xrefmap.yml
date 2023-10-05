@@ -1,0 +1,1916 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ExMath
+  name: ExMath
+  href: api/ExMath.html
+  commentId: N:ExMath
+  fullName: ExMath
+  nameWithType: ExMath
+- uid: ExMath.Discrete.Graphs
+  name: ExMath.Discrete.Graphs
+  href: api/ExMath.Discrete.Graphs.html
+  commentId: N:ExMath.Discrete.Graphs
+  fullName: ExMath.Discrete.Graphs
+  nameWithType: ExMath.Discrete.Graphs
+- uid: ExMath.Discrete.Graphs.DirectedGraph`1
+  name: DirectedGraph<T>
+  href: api/ExMath.Discrete.Graphs.DirectedGraph-1.html
+  commentId: T:ExMath.Discrete.Graphs.DirectedGraph`1
+  name.vb: DirectedGraph(Of T)
+  fullName: ExMath.Discrete.Graphs.DirectedGraph<T>
+  fullName.vb: ExMath.Discrete.Graphs.DirectedGraph(Of T)
+  nameWithType: DirectedGraph<T>
+  nameWithType.vb: DirectedGraph(Of T)
+- uid: ExMath.Discrete.Graphs.DirectedGraph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: AddRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.DirectedGraph-1.html#ExMath_Discrete_Graphs_DirectedGraph_1_AddRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.DirectedGraph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: AddRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.DirectedGraph<T>.AddRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.DirectedGraph(Of T).AddRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: DirectedGraph<T>.AddRelation(Relationship<T>)
+  nameWithType.vb: DirectedGraph(Of T).AddRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.DirectedGraph`1.AddRelation*
+  name: AddRelation
+  href: api/ExMath.Discrete.Graphs.DirectedGraph-1.html#ExMath_Discrete_Graphs_DirectedGraph_1_AddRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.DirectedGraph`1.AddRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.DirectedGraph<T>.AddRelation
+  fullName.vb: ExMath.Discrete.Graphs.DirectedGraph(Of T).AddRelation
+  nameWithType: DirectedGraph<T>.AddRelation
+  nameWithType.vb: DirectedGraph(Of T).AddRelation
+- uid: ExMath.Discrete.Graphs.DirectedGraph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: RemoveRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.DirectedGraph-1.html#ExMath_Discrete_Graphs_DirectedGraph_1_RemoveRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.DirectedGraph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: RemoveRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.DirectedGraph<T>.RemoveRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.DirectedGraph(Of T).RemoveRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: DirectedGraph<T>.RemoveRelation(Relationship<T>)
+  nameWithType.vb: DirectedGraph(Of T).RemoveRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.DirectedGraph`1.RemoveRelation*
+  name: RemoveRelation
+  href: api/ExMath.Discrete.Graphs.DirectedGraph-1.html#ExMath_Discrete_Graphs_DirectedGraph_1_RemoveRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.DirectedGraph`1.RemoveRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.DirectedGraph<T>.RemoveRelation
+  fullName.vb: ExMath.Discrete.Graphs.DirectedGraph(Of T).RemoveRelation
+  nameWithType: DirectedGraph<T>.RemoveRelation
+  nameWithType.vb: DirectedGraph(Of T).RemoveRelation
+- uid: ExMath.Discrete.Graphs.Graph`1
+  name: Graph<T>
+  href: api/ExMath.Discrete.Graphs.Graph-1.html
+  commentId: T:ExMath.Discrete.Graphs.Graph`1
+  name.vb: Graph(Of T)
+  fullName: ExMath.Discrete.Graphs.Graph<T>
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T)
+  nameWithType: Graph<T>
+  nameWithType.vb: Graph(Of T)
+- uid: ExMath.Discrete.Graphs.Graph`1.#ctor
+  name: Graph()
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1__ctor
+  commentId: M:ExMath.Discrete.Graphs.Graph`1.#ctor
+  name.vb: New()
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Graph()
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).New()
+  nameWithType: Graph<T>.Graph()
+  nameWithType.vb: Graph(Of T).New()
+- uid: ExMath.Discrete.Graphs.Graph`1.#ctor*
+  name: Graph
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1__ctor_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Graph
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).New
+  nameWithType: Graph<T>.Graph
+  nameWithType.vb: Graph(Of T).New
+- uid: ExMath.Discrete.Graphs.Graph`1.AddNode(System.String)
+  name: AddNode(string?)
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_AddNode_System_String_
+  commentId: M:ExMath.Discrete.Graphs.Graph`1.AddNode(System.String)
+  name.vb: AddNode(String)
+  fullName: ExMath.Discrete.Graphs.Graph<T>.AddNode(string?)
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).AddNode(String)
+  nameWithType: Graph<T>.AddNode(string?)
+  nameWithType.vb: Graph(Of T).AddNode(String)
+- uid: ExMath.Discrete.Graphs.Graph`1.AddNode*
+  name: AddNode
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_AddNode_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.AddNode
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.AddNode
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).AddNode
+  nameWithType: Graph<T>.AddNode
+  nameWithType.vb: Graph(Of T).AddNode
+- uid: ExMath.Discrete.Graphs.Graph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: AddRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_AddRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.Graph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: AddRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.Graph<T>.AddRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).AddRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: Graph<T>.AddRelation(Relationship<T>)
+  nameWithType.vb: Graph(Of T).AddRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.Graph`1.AddRelation*
+  name: AddRelation
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_AddRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.AddRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.AddRelation
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).AddRelation
+  nameWithType: Graph<T>.AddRelation
+  nameWithType.vb: Graph(Of T).AddRelation
+- uid: ExMath.Discrete.Graphs.Graph`1.Adjacency
+  name: Adjacency
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Adjacency
+  commentId: P:ExMath.Discrete.Graphs.Graph`1.Adjacency
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Adjacency
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Adjacency
+  nameWithType: Graph<T>.Adjacency
+  nameWithType.vb: Graph(Of T).Adjacency
+- uid: ExMath.Discrete.Graphs.Graph`1.Adjacency*
+  name: Adjacency
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Adjacency_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.Adjacency
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Adjacency
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Adjacency
+  nameWithType: Graph<T>.Adjacency
+  nameWithType.vb: Graph(Of T).Adjacency
+- uid: ExMath.Discrete.Graphs.Graph`1.Nodes
+  name: Nodes
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Nodes
+  commentId: P:ExMath.Discrete.Graphs.Graph`1.Nodes
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Nodes
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Nodes
+  nameWithType: Graph<T>.Nodes
+  nameWithType.vb: Graph(Of T).Nodes
+- uid: ExMath.Discrete.Graphs.Graph`1.Nodes*
+  name: Nodes
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Nodes_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.Nodes
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Nodes
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Nodes
+  nameWithType: Graph<T>.Nodes
+  nameWithType.vb: Graph(Of T).Nodes
+- uid: ExMath.Discrete.Graphs.Graph`1.Relations
+  name: Relations
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Relations
+  commentId: P:ExMath.Discrete.Graphs.Graph`1.Relations
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Relations
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Relations
+  nameWithType: Graph<T>.Relations
+  nameWithType.vb: Graph(Of T).Relations
+- uid: ExMath.Discrete.Graphs.Graph`1.Relations*
+  name: Relations
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_Relations_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.Relations
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.Relations
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).Relations
+  nameWithType: Graph<T>.Relations
+  nameWithType.vb: Graph(Of T).Relations
+- uid: ExMath.Discrete.Graphs.Graph`1.RemoveNode(System.Int32)
+  name: RemoveNode(int)
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_RemoveNode_System_Int32_
+  commentId: M:ExMath.Discrete.Graphs.Graph`1.RemoveNode(System.Int32)
+  name.vb: RemoveNode(Integer)
+  fullName: ExMath.Discrete.Graphs.Graph<T>.RemoveNode(int)
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).RemoveNode(Integer)
+  nameWithType: Graph<T>.RemoveNode(int)
+  nameWithType.vb: Graph(Of T).RemoveNode(Integer)
+- uid: ExMath.Discrete.Graphs.Graph`1.RemoveNode*
+  name: RemoveNode
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_RemoveNode_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.RemoveNode
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.RemoveNode
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).RemoveNode
+  nameWithType: Graph<T>.RemoveNode
+  nameWithType.vb: Graph(Of T).RemoveNode
+- uid: ExMath.Discrete.Graphs.Graph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: RemoveRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_RemoveRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.Graph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: RemoveRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.Graph<T>.RemoveRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).RemoveRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: Graph<T>.RemoveRelation(Relationship<T>)
+  nameWithType.vb: Graph(Of T).RemoveRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.Graph`1.RemoveRelation*
+  name: RemoveRelation
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1_RemoveRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.Graph`1.RemoveRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Graph<T>.RemoveRelation
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T).RemoveRelation
+  nameWithType: Graph<T>.RemoveRelation
+  nameWithType.vb: Graph(Of T).RemoveRelation
+- uid: ExMath.Discrete.Graphs.Graph`1._nodes
+  name: _nodes
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1__nodes
+  commentId: F:ExMath.Discrete.Graphs.Graph`1._nodes
+  fullName: ExMath.Discrete.Graphs.Graph<T>._nodes
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T)._nodes
+  nameWithType: Graph<T>._nodes
+  nameWithType.vb: Graph(Of T)._nodes
+- uid: ExMath.Discrete.Graphs.Graph`1._relations
+  name: _relations
+  href: api/ExMath.Discrete.Graphs.Graph-1.html#ExMath_Discrete_Graphs_Graph_1__relations
+  commentId: F:ExMath.Discrete.Graphs.Graph`1._relations
+  fullName: ExMath.Discrete.Graphs.Graph<T>._relations
+  fullName.vb: ExMath.Discrete.Graphs.Graph(Of T)._relations
+  nameWithType: Graph<T>._relations
+  nameWithType.vb: Graph(Of T)._relations
+- uid: ExMath.Discrete.Graphs.Node
+  name: Node
+  href: api/ExMath.Discrete.Graphs.Node.html
+  commentId: T:ExMath.Discrete.Graphs.Node
+  fullName: ExMath.Discrete.Graphs.Node
+  nameWithType: Node
+- uid: ExMath.Discrete.Graphs.Node.#ctor(System.Int32,System.String)
+  name: Node(int, string?)
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node__ctor_System_Int32_System_String_
+  commentId: M:ExMath.Discrete.Graphs.Node.#ctor(System.Int32,System.String)
+  name.vb: New(Integer, String)
+  fullName: ExMath.Discrete.Graphs.Node.Node(int, string?)
+  fullName.vb: ExMath.Discrete.Graphs.Node.New(Integer, String)
+  nameWithType: Node.Node(int, string?)
+  nameWithType.vb: Node.New(Integer, String)
+- uid: ExMath.Discrete.Graphs.Node.#ctor*
+  name: Node
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node__ctor_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Discrete.Graphs.Node.Node
+  fullName.vb: ExMath.Discrete.Graphs.Node.New
+  nameWithType: Node.Node
+  nameWithType.vb: Node.New
+- uid: ExMath.Discrete.Graphs.Node.Equals(ExMath.Discrete.Graphs.Node)
+  name: Equals(Node?)
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Equals_ExMath_Discrete_Graphs_Node_
+  commentId: M:ExMath.Discrete.Graphs.Node.Equals(ExMath.Discrete.Graphs.Node)
+  name.vb: Equals(Node)
+  fullName: ExMath.Discrete.Graphs.Node.Equals(ExMath.Discrete.Graphs.Node?)
+  fullName.vb: ExMath.Discrete.Graphs.Node.Equals(ExMath.Discrete.Graphs.Node)
+  nameWithType: Node.Equals(Node?)
+  nameWithType.vb: Node.Equals(Node)
+- uid: ExMath.Discrete.Graphs.Node.Equals(System.Object)
+  name: Equals(object?)
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Equals_System_Object_
+  commentId: M:ExMath.Discrete.Graphs.Node.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Discrete.Graphs.Node.Equals(object?)
+  fullName.vb: ExMath.Discrete.Graphs.Node.Equals(Object)
+  nameWithType: Node.Equals(object?)
+  nameWithType.vb: Node.Equals(Object)
+- uid: ExMath.Discrete.Graphs.Node.Equals*
+  name: Equals
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Equals_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.Equals
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.Equals
+  nameWithType: Node.Equals
+- uid: ExMath.Discrete.Graphs.Node.GetHashCode
+  name: GetHashCode()
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_GetHashCode
+  commentId: M:ExMath.Discrete.Graphs.Node.GetHashCode
+  fullName: ExMath.Discrete.Graphs.Node.GetHashCode()
+  nameWithType: Node.GetHashCode()
+- uid: ExMath.Discrete.Graphs.Node.GetHashCode*
+  name: GetHashCode
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_GetHashCode_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.GetHashCode
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.GetHashCode
+  nameWithType: Node.GetHashCode
+- uid: ExMath.Discrete.Graphs.Node.Name
+  name: Name
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Name
+  commentId: P:ExMath.Discrete.Graphs.Node.Name
+  fullName: ExMath.Discrete.Graphs.Node.Name
+  nameWithType: Node.Name
+- uid: ExMath.Discrete.Graphs.Node.Name*
+  name: Name
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Name_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.Name
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.Name
+  nameWithType: Node.Name
+- uid: ExMath.Discrete.Graphs.Node.UID
+  name: UID
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_UID
+  commentId: P:ExMath.Discrete.Graphs.Node.UID
+  fullName: ExMath.Discrete.Graphs.Node.UID
+  nameWithType: Node.UID
+- uid: ExMath.Discrete.Graphs.Node.UID*
+  name: UID
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_UID_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.UID
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.UID
+  nameWithType: Node.UID
+- uid: ExMath.Discrete.Graphs.Relationship`1
+  name: Relationship<T>
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html
+  commentId: T:ExMath.Discrete.Graphs.Relationship`1
+  name.vb: Relationship(Of T)
+  fullName: ExMath.Discrete.Graphs.Relationship<T>
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T)
+  nameWithType: Relationship<T>
+  nameWithType.vb: Relationship(Of T)
+- uid: ExMath.Discrete.Graphs.Relationship`1.#ctor(ExMath.Discrete.Graphs.Node,ExMath.Discrete.Graphs.Node,`0)
+  name: Relationship(Node, Node, T)
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1__ctor_ExMath_Discrete_Graphs_Node_ExMath_Discrete_Graphs_Node__0_
+  commentId: M:ExMath.Discrete.Graphs.Relationship`1.#ctor(ExMath.Discrete.Graphs.Node,ExMath.Discrete.Graphs.Node,`0)
+  name.vb: New(Node, Node, T)
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Relationship(ExMath.Discrete.Graphs.Node, ExMath.Discrete.Graphs.Node, T)
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).New(ExMath.Discrete.Graphs.Node, ExMath.Discrete.Graphs.Node, T)
+  nameWithType: Relationship<T>.Relationship(Node, Node, T)
+  nameWithType.vb: Relationship(Of T).New(Node, Node, T)
+- uid: ExMath.Discrete.Graphs.Relationship`1.#ctor*
+  name: Relationship
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1__ctor_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Relationship
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).New
+  nameWithType: Relationship<T>.Relationship
+  nameWithType.vb: Relationship(Of T).New
+- uid: ExMath.Discrete.Graphs.Relationship`1.Equals(ExMath.Discrete.Graphs.Relationship{`0})
+  name: Equals(Relationship<T>?)
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Equals_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.Relationship`1.Equals(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: Equals(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Equals(ExMath.Discrete.Graphs.Relationship<T>?)
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Equals(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: Relationship<T>.Equals(Relationship<T>?)
+  nameWithType.vb: Relationship(Of T).Equals(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.Relationship`1.Equals(System.Object)
+  name: Equals(object?)
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Equals_System_Object_
+  commentId: M:ExMath.Discrete.Graphs.Relationship`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Equals(object?)
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Equals(Object)
+  nameWithType: Relationship<T>.Equals(object?)
+  nameWithType.vb: Relationship(Of T).Equals(Object)
+- uid: ExMath.Discrete.Graphs.Relationship`1.Equals*
+  name: Equals
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Equals_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.Equals
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Equals
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Equals
+  nameWithType: Relationship<T>.Equals
+  nameWithType.vb: Relationship(Of T).Equals
+- uid: ExMath.Discrete.Graphs.Relationship`1.GetHashCode
+  name: GetHashCode()
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_GetHashCode
+  commentId: M:ExMath.Discrete.Graphs.Relationship`1.GetHashCode
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.GetHashCode()
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).GetHashCode()
+  nameWithType: Relationship<T>.GetHashCode()
+  nameWithType.vb: Relationship(Of T).GetHashCode()
+- uid: ExMath.Discrete.Graphs.Relationship`1.GetHashCode*
+  name: GetHashCode
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_GetHashCode_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.GetHashCode
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.GetHashCode
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).GetHashCode
+  nameWithType: Relationship<T>.GetHashCode
+  nameWithType.vb: Relationship(Of T).GetHashCode
+- uid: ExMath.Discrete.Graphs.Relationship`1.Node1
+  name: Node1
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Node1
+  commentId: P:ExMath.Discrete.Graphs.Relationship`1.Node1
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Node1
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Node1
+  nameWithType: Relationship<T>.Node1
+  nameWithType.vb: Relationship(Of T).Node1
+- uid: ExMath.Discrete.Graphs.Relationship`1.Node1*
+  name: Node1
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Node1_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.Node1
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Node1
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Node1
+  nameWithType: Relationship<T>.Node1
+  nameWithType.vb: Relationship(Of T).Node1
+- uid: ExMath.Discrete.Graphs.Relationship`1.Node2
+  name: Node2
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Node2
+  commentId: P:ExMath.Discrete.Graphs.Relationship`1.Node2
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Node2
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Node2
+  nameWithType: Relationship<T>.Node2
+  nameWithType.vb: Relationship(Of T).Node2
+- uid: ExMath.Discrete.Graphs.Relationship`1.Node2*
+  name: Node2
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Node2_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.Node2
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Node2
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Node2
+  nameWithType: Relationship<T>.Node2
+  nameWithType.vb: Relationship(Of T).Node2
+- uid: ExMath.Discrete.Graphs.Relationship`1.Value
+  name: Value
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Value
+  commentId: P:ExMath.Discrete.Graphs.Relationship`1.Value
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Value
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Value
+  nameWithType: Relationship<T>.Value
+  nameWithType.vb: Relationship(Of T).Value
+- uid: ExMath.Discrete.Graphs.Relationship`1.Value*
+  name: Value
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Value_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.Value
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.Value
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Value
+  nameWithType: Relationship<T>.Value
+  nameWithType.vb: Relationship(Of T).Value
+- uid: ExMath.Discrete.Graphs.UndirectedGraph`1
+  name: UndirectedGraph<T>
+  href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html
+  commentId: T:ExMath.Discrete.Graphs.UndirectedGraph`1
+  name.vb: UndirectedGraph(Of T)
+  fullName: ExMath.Discrete.Graphs.UndirectedGraph<T>
+  fullName.vb: ExMath.Discrete.Graphs.UndirectedGraph(Of T)
+  nameWithType: UndirectedGraph<T>
+  nameWithType.vb: UndirectedGraph(Of T)
+- uid: ExMath.Discrete.Graphs.UndirectedGraph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: AddRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html#ExMath_Discrete_Graphs_UndirectedGraph_1_AddRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.UndirectedGraph`1.AddRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: AddRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.UndirectedGraph<T>.AddRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.UndirectedGraph(Of T).AddRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: UndirectedGraph<T>.AddRelation(Relationship<T>)
+  nameWithType.vb: UndirectedGraph(Of T).AddRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.UndirectedGraph`1.AddRelation*
+  name: AddRelation
+  href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html#ExMath_Discrete_Graphs_UndirectedGraph_1_AddRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.UndirectedGraph`1.AddRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.UndirectedGraph<T>.AddRelation
+  fullName.vb: ExMath.Discrete.Graphs.UndirectedGraph(Of T).AddRelation
+  nameWithType: UndirectedGraph<T>.AddRelation
+  nameWithType.vb: UndirectedGraph(Of T).AddRelation
+- uid: ExMath.Discrete.Graphs.UndirectedGraph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name: RemoveRelation(Relationship<T>)
+  href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html#ExMath_Discrete_Graphs_UndirectedGraph_1_RemoveRelation_ExMath_Discrete_Graphs_Relationship__0__
+  commentId: M:ExMath.Discrete.Graphs.UndirectedGraph`1.RemoveRelation(ExMath.Discrete.Graphs.Relationship{`0})
+  name.vb: RemoveRelation(Relationship(Of T))
+  fullName: ExMath.Discrete.Graphs.UndirectedGraph<T>.RemoveRelation(ExMath.Discrete.Graphs.Relationship<T>)
+  fullName.vb: ExMath.Discrete.Graphs.UndirectedGraph(Of T).RemoveRelation(ExMath.Discrete.Graphs.Relationship(Of T))
+  nameWithType: UndirectedGraph<T>.RemoveRelation(Relationship<T>)
+  nameWithType.vb: UndirectedGraph(Of T).RemoveRelation(Relationship(Of T))
+- uid: ExMath.Discrete.Graphs.UndirectedGraph`1.RemoveRelation*
+  name: RemoveRelation
+  href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html#ExMath_Discrete_Graphs_UndirectedGraph_1_RemoveRelation_
+  commentId: Overload:ExMath.Discrete.Graphs.UndirectedGraph`1.RemoveRelation
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.UndirectedGraph<T>.RemoveRelation
+  fullName.vb: ExMath.Discrete.Graphs.UndirectedGraph(Of T).RemoveRelation
+  nameWithType: UndirectedGraph<T>.RemoveRelation
+  nameWithType.vb: UndirectedGraph(Of T).RemoveRelation
+- uid: ExMath.ExMathLib
+  name: ExMathLib
+  href: api/ExMath.ExMathLib.html
+  commentId: T:ExMath.ExMathLib
+  fullName: ExMath.ExMathLib
+  nameWithType: ExMathLib
+- uid: ExMath.ExMathLib.Combination(System.UInt32,System.UInt32)
+  name: Combination(uint, uint)
+  href: api/ExMath.ExMathLib.html#ExMath_ExMathLib_Combination_System_UInt32_System_UInt32_
+  commentId: M:ExMath.ExMathLib.Combination(System.UInt32,System.UInt32)
+  name.vb: Combination(UInteger, UInteger)
+  fullName: ExMath.ExMathLib.Combination(uint, uint)
+  fullName.vb: ExMath.ExMathLib.Combination(UInteger, UInteger)
+  nameWithType: ExMathLib.Combination(uint, uint)
+  nameWithType.vb: ExMathLib.Combination(UInteger, UInteger)
+- uid: ExMath.ExMathLib.Combination*
+  name: Combination
+  href: api/ExMath.ExMathLib.html#ExMath_ExMathLib_Combination_
+  commentId: Overload:ExMath.ExMathLib.Combination
+  isSpec: "True"
+  fullName: ExMath.ExMathLib.Combination
+  nameWithType: ExMathLib.Combination
+- uid: ExMath.ExMathLib.Factorial(System.UInt32)
+  name: Factorial(uint)
+  href: api/ExMath.ExMathLib.html#ExMath_ExMathLib_Factorial_System_UInt32_
+  commentId: M:ExMath.ExMathLib.Factorial(System.UInt32)
+  name.vb: Factorial(UInteger)
+  fullName: ExMath.ExMathLib.Factorial(uint)
+  fullName.vb: ExMath.ExMathLib.Factorial(UInteger)
+  nameWithType: ExMathLib.Factorial(uint)
+  nameWithType.vb: ExMathLib.Factorial(UInteger)
+- uid: ExMath.ExMathLib.Factorial*
+  name: Factorial
+  href: api/ExMath.ExMathLib.html#ExMath_ExMathLib_Factorial_
+  commentId: Overload:ExMath.ExMathLib.Factorial
+  isSpec: "True"
+  fullName: ExMath.ExMathLib.Factorial
+  nameWithType: ExMathLib.Factorial
+- uid: ExMath.Exceptions
+  name: ExMath.Exceptions
+  href: api/ExMath.Exceptions.html
+  commentId: N:ExMath.Exceptions
+  fullName: ExMath.Exceptions
+  nameWithType: ExMath.Exceptions
+- uid: ExMath.Exceptions.InvalidNumericTypeException
+  name: InvalidNumericTypeException
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html
+  commentId: T:ExMath.Exceptions.InvalidNumericTypeException
+  fullName: ExMath.Exceptions.InvalidNumericTypeException
+  nameWithType: InvalidNumericTypeException
+- uid: ExMath.Exceptions.InvalidNumericTypeException.#ctor
+  name: InvalidNumericTypeException()
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html#ExMath_Exceptions_InvalidNumericTypeException__ctor
+  commentId: M:ExMath.Exceptions.InvalidNumericTypeException.#ctor
+  name.vb: New()
+  fullName: ExMath.Exceptions.InvalidNumericTypeException.InvalidNumericTypeException()
+  fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New()
+  nameWithType: InvalidNumericTypeException.InvalidNumericTypeException()
+  nameWithType.vb: InvalidNumericTypeException.New()
+- uid: ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: InvalidNumericTypeException(SerializationInfo, StreamingContext)
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html#ExMath_Exceptions_InvalidNumericTypeException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: ExMath.Exceptions.InvalidNumericTypeException.InvalidNumericTypeException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: InvalidNumericTypeException.InvalidNumericTypeException(SerializationInfo, StreamingContext)
+  nameWithType.vb: InvalidNumericTypeException.New(SerializationInfo, StreamingContext)
+- uid: ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.String)
+  name: InvalidNumericTypeException(string)
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html#ExMath_Exceptions_InvalidNumericTypeException__ctor_System_String_
+  commentId: M:ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ExMath.Exceptions.InvalidNumericTypeException.InvalidNumericTypeException(string)
+  fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New(String)
+  nameWithType: InvalidNumericTypeException.InvalidNumericTypeException(string)
+  nameWithType.vb: InvalidNumericTypeException.New(String)
+- uid: ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.String,System.Exception)
+  name: InvalidNumericTypeException(string, Exception)
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html#ExMath_Exceptions_InvalidNumericTypeException__ctor_System_String_System_Exception_
+  commentId: M:ExMath.Exceptions.InvalidNumericTypeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ExMath.Exceptions.InvalidNumericTypeException.InvalidNumericTypeException(string, System.Exception)
+  fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New(String, System.Exception)
+  nameWithType: InvalidNumericTypeException.InvalidNumericTypeException(string, Exception)
+  nameWithType.vb: InvalidNumericTypeException.New(String, Exception)
+- uid: ExMath.Exceptions.InvalidNumericTypeException.#ctor*
+  name: InvalidNumericTypeException
+  href: api/ExMath.Exceptions.InvalidNumericTypeException.html#ExMath_Exceptions_InvalidNumericTypeException__ctor_
+  commentId: Overload:ExMath.Exceptions.InvalidNumericTypeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Exceptions.InvalidNumericTypeException.InvalidNumericTypeException
+  fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New
+  nameWithType: InvalidNumericTypeException.InvalidNumericTypeException
+  nameWithType.vb: InvalidNumericTypeException.New
+- uid: ExMath.Extensions
+  name: ExMath.Extensions
+  href: api/ExMath.Extensions.html
+  commentId: N:ExMath.Extensions
+  fullName: ExMath.Extensions
+  nameWithType: ExMath.Extensions
+- uid: ExMath.Extensions.Cloning
+  name: Cloning
+  href: api/ExMath.Extensions.Cloning.html
+  commentId: T:ExMath.Extensions.Cloning
+  fullName: ExMath.Extensions.Cloning
+  nameWithType: Cloning
+- uid: ExMath.Extensions.Cloning.DeepClone*
+  name: DeepClone
+  href: api/ExMath.Extensions.Cloning.html#ExMath_Extensions_Cloning_DeepClone_
+  commentId: Overload:ExMath.Extensions.Cloning.DeepClone
+  isSpec: "True"
+  fullName: ExMath.Extensions.Cloning.DeepClone
+  nameWithType: Cloning.DeepClone
+- uid: ExMath.Extensions.Cloning.DeepClone``1(``0)
+  name: DeepClone<T>(T)
+  href: api/ExMath.Extensions.Cloning.html#ExMath_Extensions_Cloning_DeepClone__1___0_
+  commentId: M:ExMath.Extensions.Cloning.DeepClone``1(``0)
+  name.vb: DeepClone(Of T)(T)
+  fullName: ExMath.Extensions.Cloning.DeepClone<T>(T)
+  fullName.vb: ExMath.Extensions.Cloning.DeepClone(Of T)(T)
+  nameWithType: Cloning.DeepClone<T>(T)
+  nameWithType.vb: Cloning.DeepClone(Of T)(T)
+- uid: ExMath.Extensions.Collections
+  name: Collections
+  href: api/ExMath.Extensions.Collections.html
+  commentId: T:ExMath.Extensions.Collections
+  fullName: ExMath.Extensions.Collections
+  nameWithType: Collections
+- uid: ExMath.Extensions.Collections.SubArray*
+  name: SubArray
+  href: api/ExMath.Extensions.Collections.html#ExMath_Extensions_Collections_SubArray_
+  commentId: Overload:ExMath.Extensions.Collections.SubArray
+  isSpec: "True"
+  fullName: ExMath.Extensions.Collections.SubArray
+  nameWithType: Collections.SubArray
+- uid: ExMath.Extensions.Collections.SubArray``1(``0[],System.Int32,System.Int32)
+  name: SubArray<T>(T[], int, int)
+  href: api/ExMath.Extensions.Collections.html#ExMath_Extensions_Collections_SubArray__1___0___System_Int32_System_Int32_
+  commentId: M:ExMath.Extensions.Collections.SubArray``1(``0[],System.Int32,System.Int32)
+  name.vb: SubArray(Of T)(T(), Integer, Integer)
+  fullName: ExMath.Extensions.Collections.SubArray<T>(T[], int, int)
+  fullName.vb: ExMath.Extensions.Collections.SubArray(Of T)(T(), Integer, Integer)
+  nameWithType: Collections.SubArray<T>(T[], int, int)
+  nameWithType.vb: Collections.SubArray(Of T)(T(), Integer, Integer)
+- uid: ExMath.Extensions.Numerics
+  name: Numerics
+  href: api/ExMath.Extensions.Numerics.html
+  commentId: T:ExMath.Extensions.Numerics
+  fullName: ExMath.Extensions.Numerics
+  nameWithType: Numerics
+- uid: ExMath.Extensions.Numerics.Factorial(System.Int32)
+  name: Factorial(int)
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_Factorial_System_Int32_
+  commentId: M:ExMath.Extensions.Numerics.Factorial(System.Int32)
+  name.vb: Factorial(Integer)
+  fullName: ExMath.Extensions.Numerics.Factorial(int)
+  fullName.vb: ExMath.Extensions.Numerics.Factorial(Integer)
+  nameWithType: Numerics.Factorial(int)
+  nameWithType.vb: Numerics.Factorial(Integer)
+- uid: ExMath.Extensions.Numerics.Factorial(System.UInt64)
+  name: Factorial(ulong)
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_Factorial_System_UInt64_
+  commentId: M:ExMath.Extensions.Numerics.Factorial(System.UInt64)
+  name.vb: Factorial(ULong)
+  fullName: ExMath.Extensions.Numerics.Factorial(ulong)
+  fullName.vb: ExMath.Extensions.Numerics.Factorial(ULong)
+  nameWithType: Numerics.Factorial(ulong)
+  nameWithType.vb: Numerics.Factorial(ULong)
+- uid: ExMath.Extensions.Numerics.Factorial*
+  name: Factorial
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_Factorial_
+  commentId: Overload:ExMath.Extensions.Numerics.Factorial
+  isSpec: "True"
+  fullName: ExMath.Extensions.Numerics.Factorial
+  nameWithType: Numerics.Factorial
+- uid: ExMath.Extensions.Numerics.IsNumber*
+  name: IsNumber
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_IsNumber_
+  commentId: Overload:ExMath.Extensions.Numerics.IsNumber
+  isSpec: "True"
+  fullName: ExMath.Extensions.Numerics.IsNumber
+  nameWithType: Numerics.IsNumber
+- uid: ExMath.Extensions.Numerics.IsNumber``1
+  name: IsNumber<T>()
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_IsNumber__1
+  commentId: M:ExMath.Extensions.Numerics.IsNumber``1
+  name.vb: IsNumber(Of T)()
+  fullName: ExMath.Extensions.Numerics.IsNumber<T>()
+  fullName.vb: ExMath.Extensions.Numerics.IsNumber(Of T)()
+  nameWithType: Numerics.IsNumber<T>()
+  nameWithType.vb: Numerics.IsNumber(Of T)()
+- uid: ExMath.Extensions.Numerics.ThrowIfNotNumber*
+  name: ThrowIfNotNumber
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_ThrowIfNotNumber_
+  commentId: Overload:ExMath.Extensions.Numerics.ThrowIfNotNumber
+  isSpec: "True"
+  fullName: ExMath.Extensions.Numerics.ThrowIfNotNumber
+  nameWithType: Numerics.ThrowIfNotNumber
+- uid: ExMath.Extensions.Numerics.ThrowIfNotNumber``1
+  name: ThrowIfNotNumber<T>()
+  href: api/ExMath.Extensions.Numerics.html#ExMath_Extensions_Numerics_ThrowIfNotNumber__1
+  commentId: M:ExMath.Extensions.Numerics.ThrowIfNotNumber``1
+  name.vb: ThrowIfNotNumber(Of T)()
+  fullName: ExMath.Extensions.Numerics.ThrowIfNotNumber<T>()
+  fullName.vb: ExMath.Extensions.Numerics.ThrowIfNotNumber(Of T)()
+  nameWithType: Numerics.ThrowIfNotNumber<T>()
+  nameWithType.vb: Numerics.ThrowIfNotNumber(Of T)()
+- uid: ExMath.Geometry
+  name: ExMath.Geometry
+  href: api/ExMath.Geometry.html
+  commentId: N:ExMath.Geometry
+  fullName: ExMath.Geometry
+  nameWithType: ExMath.Geometry
+- uid: ExMath.Geometry.Size
+  name: Size
+  href: api/ExMath.Geometry.Size.html
+  commentId: T:ExMath.Geometry.Size
+  fullName: ExMath.Geometry.Size
+  nameWithType: Size
+- uid: ExMath.Geometry.Size.#ctor(System.Int32[])
+  name: Size(params int[])
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size__ctor_System_Int32___
+  commentId: M:ExMath.Geometry.Size.#ctor(System.Int32[])
+  name.vb: New(ParamArray Integer())
+  fullName: ExMath.Geometry.Size.Size(params int[])
+  fullName.vb: ExMath.Geometry.Size.New(ParamArray Integer())
+  nameWithType: Size.Size(params int[])
+  nameWithType.vb: Size.New(ParamArray Integer())
+- uid: ExMath.Geometry.Size.#ctor*
+  name: Size
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size__ctor_
+  commentId: Overload:ExMath.Geometry.Size.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Geometry.Size.Size
+  fullName.vb: ExMath.Geometry.Size.New
+  nameWithType: Size.Size
+  nameWithType.vb: Size.New
+- uid: ExMath.Geometry.Size.Clone
+  name: Clone()
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Clone
+  commentId: M:ExMath.Geometry.Size.Clone
+  fullName: ExMath.Geometry.Size.Clone()
+  nameWithType: Size.Clone()
+- uid: ExMath.Geometry.Size.Clone*
+  name: Clone
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Clone_
+  commentId: Overload:ExMath.Geometry.Size.Clone
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.Clone
+  nameWithType: Size.Clone
+- uid: ExMath.Geometry.Size.Dimension
+  name: Dimension
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Dimension
+  commentId: P:ExMath.Geometry.Size.Dimension
+  fullName: ExMath.Geometry.Size.Dimension
+  nameWithType: Size.Dimension
+- uid: ExMath.Geometry.Size.Dimension*
+  name: Dimension
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Dimension_
+  commentId: Overload:ExMath.Geometry.Size.Dimension
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.Dimension
+  nameWithType: Size.Dimension
+- uid: ExMath.Geometry.Size.Dimensions
+  name: Dimensions
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Dimensions
+  commentId: P:ExMath.Geometry.Size.Dimensions
+  fullName: ExMath.Geometry.Size.Dimensions
+  nameWithType: Size.Dimensions
+- uid: ExMath.Geometry.Size.Dimensions*
+  name: Dimensions
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Dimensions_
+  commentId: Overload:ExMath.Geometry.Size.Dimensions
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.Dimensions
+  nameWithType: Size.Dimensions
+- uid: ExMath.Geometry.Size.Equals(ExMath.Geometry.Size)
+  name: Equals(Size)
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Equals_ExMath_Geometry_Size_
+  commentId: M:ExMath.Geometry.Size.Equals(ExMath.Geometry.Size)
+  fullName: ExMath.Geometry.Size.Equals(ExMath.Geometry.Size)
+  nameWithType: Size.Equals(Size)
+- uid: ExMath.Geometry.Size.Equals(System.Object)
+  name: Equals(object)
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Equals_System_Object_
+  commentId: M:ExMath.Geometry.Size.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Geometry.Size.Equals(object)
+  fullName.vb: ExMath.Geometry.Size.Equals(Object)
+  nameWithType: Size.Equals(object)
+  nameWithType.vb: Size.Equals(Object)
+- uid: ExMath.Geometry.Size.Equals*
+  name: Equals
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Equals_
+  commentId: Overload:ExMath.Geometry.Size.Equals
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.Equals
+  nameWithType: Size.Equals
+- uid: ExMath.Geometry.Size.Invert
+  name: Invert()
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Invert
+  commentId: M:ExMath.Geometry.Size.Invert
+  fullName: ExMath.Geometry.Size.Invert()
+  nameWithType: Size.Invert()
+- uid: ExMath.Geometry.Size.Invert(ExMath.Geometry.Size)
+  name: Invert(Size)
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Invert_ExMath_Geometry_Size_
+  commentId: M:ExMath.Geometry.Size.Invert(ExMath.Geometry.Size)
+  fullName: ExMath.Geometry.Size.Invert(ExMath.Geometry.Size)
+  nameWithType: Size.Invert(Size)
+- uid: ExMath.Geometry.Size.Invert*
+  name: Invert
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_Invert_
+  commentId: Overload:ExMath.Geometry.Size.Invert
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.Invert
+  nameWithType: Size.Invert
+- uid: ExMath.Geometry.Size.ToString
+  name: ToString()
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_ToString
+  commentId: M:ExMath.Geometry.Size.ToString
+  fullName: ExMath.Geometry.Size.ToString()
+  nameWithType: Size.ToString()
+- uid: ExMath.Geometry.Size.ToString*
+  name: ToString
+  href: api/ExMath.Geometry.Size.html#ExMath_Geometry_Size_ToString_
+  commentId: Overload:ExMath.Geometry.Size.ToString
+  isSpec: "True"
+  fullName: ExMath.Geometry.Size.ToString
+  nameWithType: Size.ToString
+- uid: ExMath.Matrix
+  name: ExMath.Matrix
+  href: api/ExMath.Matrix.html
+  commentId: N:ExMath.Matrix
+  fullName: ExMath.Matrix
+  nameWithType: ExMath.Matrix
+- uid: ExMath.Matrix.Matrix`1
+  name: Matrix<T>
+  href: api/ExMath.Matrix.Matrix-1.html
+  commentId: T:ExMath.Matrix.Matrix`1
+  name.vb: Matrix(Of T)
+  fullName: ExMath.Matrix.Matrix<T>
+  fullName.vb: ExMath.Matrix.Matrix(Of T)
+  nameWithType: Matrix<T>
+  nameWithType.vb: Matrix(Of T)
+- uid: ExMath.Matrix.Matrix`1.#ctor(System.Int32,System.Int32,`0)
+  name: Matrix(int, int, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1__ctor_System_Int32_System_Int32__0_
+  commentId: M:ExMath.Matrix.Matrix`1.#ctor(System.Int32,System.Int32,`0)
+  name.vb: New(Integer, Integer, T)
+  fullName: ExMath.Matrix.Matrix<T>.Matrix(int, int, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).New(Integer, Integer, T)
+  nameWithType: Matrix<T>.Matrix(int, int, T)
+  nameWithType.vb: Matrix(Of T).New(Integer, Integer, T)
+- uid: ExMath.Matrix.Matrix`1.#ctor*
+  name: Matrix
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1__ctor_
+  commentId: Overload:ExMath.Matrix.Matrix`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Matrix.Matrix<T>.Matrix
+  fullName.vb: ExMath.Matrix.Matrix(Of T).New
+  nameWithType: Matrix<T>.Matrix
+  nameWithType.vb: Matrix(Of T).New
+- uid: ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0})
+  name: Add(Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0})
+  name.vb: Add(Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Add(ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Add(ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Add(Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Add(Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name: Add(Matrix<T>, Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name.vb: Add(Matrix(Of T), Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Add(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Add(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Add(Matrix<T>, Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Add(Matrix(Of T), Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},`0)
+  name: Add(Matrix<T>, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Add_ExMath_Matrix_Matrix__0___0_
+  commentId: M:ExMath.Matrix.Matrix`1.Add(ExMath.Matrix.Matrix{`0},`0)
+  name.vb: Add(Matrix(Of T), T)
+  fullName: ExMath.Matrix.Matrix<T>.Add(ExMath.Matrix.Matrix<T>, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Add(ExMath.Matrix.Matrix(Of T), T)
+  nameWithType: Matrix<T>.Add(Matrix<T>, T)
+  nameWithType.vb: Matrix(Of T).Add(Matrix(Of T), T)
+- uid: ExMath.Matrix.Matrix`1.Add(`0)
+  name: Add(T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Add__0_
+  commentId: M:ExMath.Matrix.Matrix`1.Add(`0)
+  fullName: ExMath.Matrix.Matrix<T>.Add(T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Add(T)
+  nameWithType: Matrix<T>.Add(T)
+  nameWithType.vb: Matrix(Of T).Add(T)
+- uid: ExMath.Matrix.Matrix`1.Add*
+  name: Add
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Add_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Add
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Add
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Add
+  nameWithType: Matrix<T>.Add
+  nameWithType.vb: Matrix(Of T).Add
+- uid: ExMath.Matrix.Matrix`1.AddAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)
+  name: AddAt(Matrix<T>, int, int, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_AddAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32__0_
+  commentId: M:ExMath.Matrix.Matrix`1.AddAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)
+  name.vb: AddAt(Matrix(Of T), Integer, Integer, T)
+  fullName: ExMath.Matrix.Matrix<T>.AddAt(ExMath.Matrix.Matrix<T>, int, int, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).AddAt(ExMath.Matrix.Matrix(Of T), Integer, Integer, T)
+  nameWithType: Matrix<T>.AddAt(Matrix<T>, int, int, T)
+  nameWithType.vb: Matrix(Of T).AddAt(Matrix(Of T), Integer, Integer, T)
+- uid: ExMath.Matrix.Matrix`1.AddAt(System.Int32,System.Int32,`0)
+  name: AddAt(int, int, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_AddAt_System_Int32_System_Int32__0_
+  commentId: M:ExMath.Matrix.Matrix`1.AddAt(System.Int32,System.Int32,`0)
+  name.vb: AddAt(Integer, Integer, T)
+  fullName: ExMath.Matrix.Matrix<T>.AddAt(int, int, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).AddAt(Integer, Integer, T)
+  nameWithType: Matrix<T>.AddAt(int, int, T)
+  nameWithType.vb: Matrix(Of T).AddAt(Integer, Integer, T)
+- uid: ExMath.Matrix.Matrix`1.AddAt*
+  name: AddAt
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_AddAt_
+  commentId: Overload:ExMath.Matrix.Matrix`1.AddAt
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.AddAt
+  fullName.vb: ExMath.Matrix.Matrix(Of T).AddAt
+  nameWithType: Matrix<T>.AddAt
+  nameWithType.vb: Matrix(Of T).AddAt
+- uid: ExMath.Matrix.Matrix`1.Clone
+  name: Clone()
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Clone
+  commentId: M:ExMath.Matrix.Matrix`1.Clone
+  fullName: ExMath.Matrix.Matrix<T>.Clone()
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Clone()
+  nameWithType: Matrix<T>.Clone()
+  nameWithType.vb: Matrix(Of T).Clone()
+- uid: ExMath.Matrix.Matrix`1.Clone*
+  name: Clone
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Clone_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Clone
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Clone
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Clone
+  nameWithType: Matrix<T>.Clone
+  nameWithType.vb: Matrix(Of T).Clone
+- uid: ExMath.Matrix.Matrix`1.Columns
+  name: Columns
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Columns
+  commentId: P:ExMath.Matrix.Matrix`1.Columns
+  fullName: ExMath.Matrix.Matrix<T>.Columns
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Columns
+  nameWithType: Matrix<T>.Columns
+  nameWithType.vb: Matrix(Of T).Columns
+- uid: ExMath.Matrix.Matrix`1.Columns*
+  name: Columns
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Columns_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Columns
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Columns
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Columns
+  nameWithType: Matrix<T>.Columns
+  nameWithType.vb: Matrix(Of T).Columns
+- uid: ExMath.Matrix.Matrix`1.Data
+  name: Data
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Data
+  commentId: P:ExMath.Matrix.Matrix`1.Data
+  fullName: ExMath.Matrix.Matrix<T>.Data
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Data
+  nameWithType: Matrix<T>.Data
+  nameWithType.vb: Matrix(Of T).Data
+- uid: ExMath.Matrix.Matrix`1.Data*
+  name: Data
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Data_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Data
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Data
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Data
+  nameWithType: Matrix<T>.Data
+  nameWithType.vb: Matrix(Of T).Data
+- uid: ExMath.Matrix.Matrix`1.Deserialize(System.IO.MemoryStream)
+  name: Deserialize(MemoryStream)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Deserialize_System_IO_MemoryStream_
+  commentId: M:ExMath.Matrix.Matrix`1.Deserialize(System.IO.MemoryStream)
+  fullName: ExMath.Matrix.Matrix<T>.Deserialize(System.IO.MemoryStream)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Deserialize(System.IO.MemoryStream)
+  nameWithType: Matrix<T>.Deserialize(MemoryStream)
+  nameWithType.vb: Matrix(Of T).Deserialize(MemoryStream)
+- uid: ExMath.Matrix.Matrix`1.Deserialize*
+  name: Deserialize
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Deserialize_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Deserialize
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Deserialize
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Deserialize
+  nameWithType: Matrix<T>.Deserialize
+  nameWithType.vb: Matrix(Of T).Deserialize
+- uid: ExMath.Matrix.Matrix`1.Equals(ExMath.Matrix.Matrix{`0})
+  name: Equals(Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Equals_ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Equals(ExMath.Matrix.Matrix{`0})
+  name.vb: Equals(Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Equals(ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Equals(ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Equals(Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Equals(Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Equals(System.Object)
+  name: Equals(object)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Equals_System_Object_
+  commentId: M:ExMath.Matrix.Matrix`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Matrix.Matrix<T>.Equals(object)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Equals(Object)
+  nameWithType: Matrix<T>.Equals(object)
+  nameWithType.vb: Matrix(Of T).Equals(Object)
+- uid: ExMath.Matrix.Matrix`1.Equals*
+  name: Equals
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Equals_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Equals
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Equals
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Equals
+  nameWithType: Matrix<T>.Equals
+  nameWithType.vb: Matrix(Of T).Equals
+- uid: ExMath.Matrix.Matrix`1.Find(System.Func{`0,System.Boolean})
+  name: Find(Func<T, bool>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Find_System_Func__0_System_Boolean__
+  commentId: M:ExMath.Matrix.Matrix`1.Find(System.Func{`0,System.Boolean})
+  name.vb: Find(Func(Of T, Boolean))
+  fullName: ExMath.Matrix.Matrix<T>.Find(System.Func<T, bool>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Find(System.Func(Of T, Boolean))
+  nameWithType: Matrix<T>.Find(Func<T, bool>)
+  nameWithType.vb: Matrix(Of T).Find(Func(Of T, Boolean))
+- uid: ExMath.Matrix.Matrix`1.Find*
+  name: Find
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Find_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Find
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Find
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Find
+  nameWithType: Matrix<T>.Find
+  nameWithType.vb: Matrix(Of T).Find
+- uid: ExMath.Matrix.Matrix`1.FindAll(System.Func{`0,System.Boolean})
+  name: FindAll(Func<T, bool>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_FindAll_System_Func__0_System_Boolean__
+  commentId: M:ExMath.Matrix.Matrix`1.FindAll(System.Func{`0,System.Boolean})
+  name.vb: FindAll(Func(Of T, Boolean))
+  fullName: ExMath.Matrix.Matrix<T>.FindAll(System.Func<T, bool>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).FindAll(System.Func(Of T, Boolean))
+  nameWithType: Matrix<T>.FindAll(Func<T, bool>)
+  nameWithType.vb: Matrix(Of T).FindAll(Func(Of T, Boolean))
+- uid: ExMath.Matrix.Matrix`1.FindAll*
+  name: FindAll
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_FindAll_
+  commentId: Overload:ExMath.Matrix.Matrix`1.FindAll
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.FindAll
+  fullName.vb: ExMath.Matrix.Matrix(Of T).FindAll
+  nameWithType: Matrix<T>.FindAll
+  nameWithType.vb: Matrix(Of T).FindAll
+- uid: ExMath.Matrix.Matrix`1.GetColumn(System.Int32)
+  name: GetColumn(int)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetColumn_System_Int32_
+  commentId: M:ExMath.Matrix.Matrix`1.GetColumn(System.Int32)
+  name.vb: GetColumn(Integer)
+  fullName: ExMath.Matrix.Matrix<T>.GetColumn(int)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetColumn(Integer)
+  nameWithType: Matrix<T>.GetColumn(int)
+  nameWithType.vb: Matrix(Of T).GetColumn(Integer)
+- uid: ExMath.Matrix.Matrix`1.GetColumn*
+  name: GetColumn
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetColumn_
+  commentId: Overload:ExMath.Matrix.Matrix`1.GetColumn
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.GetColumn
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetColumn
+  nameWithType: Matrix<T>.GetColumn
+  nameWithType.vb: Matrix(Of T).GetColumn
+- uid: ExMath.Matrix.Matrix`1.GetHashCode
+  name: GetHashCode()
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetHashCode
+  commentId: M:ExMath.Matrix.Matrix`1.GetHashCode
+  fullName: ExMath.Matrix.Matrix<T>.GetHashCode()
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetHashCode()
+  nameWithType: Matrix<T>.GetHashCode()
+  nameWithType.vb: Matrix(Of T).GetHashCode()
+- uid: ExMath.Matrix.Matrix`1.GetHashCode*
+  name: GetHashCode
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetHashCode_
+  commentId: Overload:ExMath.Matrix.Matrix`1.GetHashCode
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.GetHashCode
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetHashCode
+  nameWithType: Matrix<T>.GetHashCode
+  nameWithType.vb: Matrix(Of T).GetHashCode
+- uid: ExMath.Matrix.Matrix`1.GetRow(System.Int32)
+  name: GetRow(int)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetRow_System_Int32_
+  commentId: M:ExMath.Matrix.Matrix`1.GetRow(System.Int32)
+  name.vb: GetRow(Integer)
+  fullName: ExMath.Matrix.Matrix<T>.GetRow(int)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetRow(Integer)
+  nameWithType: Matrix<T>.GetRow(int)
+  nameWithType.vb: Matrix(Of T).GetRow(Integer)
+- uid: ExMath.Matrix.Matrix`1.GetRow*
+  name: GetRow
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_GetRow_
+  commentId: Overload:ExMath.Matrix.Matrix`1.GetRow
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.GetRow
+  fullName.vb: ExMath.Matrix.Matrix(Of T).GetRow
+  nameWithType: Matrix<T>.GetRow
+  nameWithType.vb: Matrix(Of T).GetRow
+- uid: ExMath.Matrix.Matrix`1.IsSquare
+  name: IsSquare
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_IsSquare
+  commentId: P:ExMath.Matrix.Matrix`1.IsSquare
+  fullName: ExMath.Matrix.Matrix<T>.IsSquare
+  fullName.vb: ExMath.Matrix.Matrix(Of T).IsSquare
+  nameWithType: Matrix<T>.IsSquare
+  nameWithType.vb: Matrix(Of T).IsSquare
+- uid: ExMath.Matrix.Matrix`1.IsSquare*
+  name: IsSquare
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_IsSquare_
+  commentId: Overload:ExMath.Matrix.Matrix`1.IsSquare
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.IsSquare
+  fullName.vb: ExMath.Matrix.Matrix(Of T).IsSquare
+  nameWithType: Matrix<T>.IsSquare
+  nameWithType.vb: Matrix(Of T).IsSquare
+- uid: ExMath.Matrix.Matrix`1.Map(ExMath.Matrix.Matrix{`0},System.Func{`0,`0})
+  name: Map(Matrix<T>, Func<T, T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Map_ExMath_Matrix_Matrix__0__System_Func__0__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Map(ExMath.Matrix.Matrix{`0},System.Func{`0,`0})
+  name.vb: Map(Matrix(Of T), Func(Of T, T))
+  fullName: ExMath.Matrix.Matrix<T>.Map(ExMath.Matrix.Matrix<T>, System.Func<T, T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Map(ExMath.Matrix.Matrix(Of T), System.Func(Of T, T))
+  nameWithType: Matrix<T>.Map(Matrix<T>, Func<T, T>)
+  nameWithType.vb: Matrix(Of T).Map(Matrix(Of T), Func(Of T, T))
+- uid: ExMath.Matrix.Matrix`1.Map(System.Func{`0,`0})
+  name: Map(Func<T, T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Map_System_Func__0__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Map(System.Func{`0,`0})
+  name.vb: Map(Func(Of T, T))
+  fullName: ExMath.Matrix.Matrix<T>.Map(System.Func<T, T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Map(System.Func(Of T, T))
+  nameWithType: Matrix<T>.Map(Func<T, T>)
+  nameWithType.vb: Matrix(Of T).Map(Func(Of T, T))
+- uid: ExMath.Matrix.Matrix`1.Map*
+  name: Map
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Map_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Map
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Map
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Map
+  nameWithType: Matrix<T>.Map
+  nameWithType.vb: Matrix(Of T).Map
+- uid: ExMath.Matrix.Matrix`1.MapAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Func{`0,`0})
+  name: MapAt(Matrix<T>, int, int, Func<T, T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_MapAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32_System_Func__0__0__
+  commentId: M:ExMath.Matrix.Matrix`1.MapAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Func{`0,`0})
+  name.vb: MapAt(Matrix(Of T), Integer, Integer, Func(Of T, T))
+  fullName: ExMath.Matrix.Matrix<T>.MapAt(ExMath.Matrix.Matrix<T>, int, int, System.Func<T, T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).MapAt(ExMath.Matrix.Matrix(Of T), Integer, Integer, System.Func(Of T, T))
+  nameWithType: Matrix<T>.MapAt(Matrix<T>, int, int, Func<T, T>)
+  nameWithType.vb: Matrix(Of T).MapAt(Matrix(Of T), Integer, Integer, Func(Of T, T))
+- uid: ExMath.Matrix.Matrix`1.MapAt(System.Int32,System.Int32,System.Func{`0,`0})
+  name: MapAt(int, int, Func<T, T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_MapAt_System_Int32_System_Int32_System_Func__0__0__
+  commentId: M:ExMath.Matrix.Matrix`1.MapAt(System.Int32,System.Int32,System.Func{`0,`0})
+  name.vb: MapAt(Integer, Integer, Func(Of T, T))
+  fullName: ExMath.Matrix.Matrix<T>.MapAt(int, int, System.Func<T, T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).MapAt(Integer, Integer, System.Func(Of T, T))
+  nameWithType: Matrix<T>.MapAt(int, int, Func<T, T>)
+  nameWithType.vb: Matrix(Of T).MapAt(Integer, Integer, Func(Of T, T))
+- uid: ExMath.Matrix.Matrix`1.MapAt*
+  name: MapAt
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_MapAt_
+  commentId: Overload:ExMath.Matrix.Matrix`1.MapAt
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.MapAt
+  fullName.vb: ExMath.Matrix.Matrix(Of T).MapAt
+  nameWithType: Matrix<T>.MapAt
+  nameWithType.vb: Matrix(Of T).MapAt
+- uid: ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0})
+  name: Multiply(Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0})
+  name.vb: Multiply(Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Multiply(ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Multiply(ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Multiply(Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Multiply(Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name: Multiply(Matrix<T>, Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name.vb: Multiply(Matrix(Of T), Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Multiply(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Multiply(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Multiply(Matrix<T>, Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Multiply(Matrix(Of T), Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},`0)
+  name: Multiply(Matrix<T>, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Multiply_ExMath_Matrix_Matrix__0___0_
+  commentId: M:ExMath.Matrix.Matrix`1.Multiply(ExMath.Matrix.Matrix{`0},`0)
+  name.vb: Multiply(Matrix(Of T), T)
+  fullName: ExMath.Matrix.Matrix<T>.Multiply(ExMath.Matrix.Matrix<T>, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Multiply(ExMath.Matrix.Matrix(Of T), T)
+  nameWithType: Matrix<T>.Multiply(Matrix<T>, T)
+  nameWithType.vb: Matrix(Of T).Multiply(Matrix(Of T), T)
+- uid: ExMath.Matrix.Matrix`1.Multiply(`0)
+  name: Multiply(T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Multiply__0_
+  commentId: M:ExMath.Matrix.Matrix`1.Multiply(`0)
+  fullName: ExMath.Matrix.Matrix<T>.Multiply(T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Multiply(T)
+  nameWithType: Matrix<T>.Multiply(T)
+  nameWithType.vb: Matrix(Of T).Multiply(T)
+- uid: ExMath.Matrix.Matrix`1.Multiply*
+  name: Multiply
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Multiply_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Multiply
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Multiply
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Multiply
+  nameWithType: Matrix<T>.Multiply
+  nameWithType.vb: Matrix(Of T).Multiply
+- uid: ExMath.Matrix.Matrix`1.Rows
+  name: Rows
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Rows
+  commentId: P:ExMath.Matrix.Matrix`1.Rows
+  fullName: ExMath.Matrix.Matrix<T>.Rows
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Rows
+  nameWithType: Matrix<T>.Rows
+  nameWithType.vb: Matrix(Of T).Rows
+- uid: ExMath.Matrix.Matrix`1.Rows*
+  name: Rows
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Rows_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Rows
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Rows
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Rows
+  nameWithType: Matrix<T>.Rows
+  nameWithType.vb: Matrix(Of T).Rows
+- uid: ExMath.Matrix.Matrix`1.Serialize
+  name: Serialize()
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Serialize
+  commentId: M:ExMath.Matrix.Matrix`1.Serialize
+  fullName: ExMath.Matrix.Matrix<T>.Serialize()
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Serialize()
+  nameWithType: Matrix<T>.Serialize()
+  nameWithType.vb: Matrix(Of T).Serialize()
+- uid: ExMath.Matrix.Matrix`1.Serialize*
+  name: Serialize
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Serialize_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Serialize
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Serialize
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Serialize
+  nameWithType: Matrix<T>.Serialize
+  nameWithType.vb: Matrix(Of T).Serialize
+- uid: ExMath.Matrix.Matrix`1.SetAll(ExMath.Matrix.Matrix{`0},`0)
+  name: SetAll(Matrix<T>, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAll_ExMath_Matrix_Matrix__0___0_
+  commentId: M:ExMath.Matrix.Matrix`1.SetAll(ExMath.Matrix.Matrix{`0},`0)
+  name.vb: SetAll(Matrix(Of T), T)
+  fullName: ExMath.Matrix.Matrix<T>.SetAll(ExMath.Matrix.Matrix<T>, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAll(ExMath.Matrix.Matrix(Of T), T)
+  nameWithType: Matrix<T>.SetAll(Matrix<T>, T)
+  nameWithType.vb: Matrix(Of T).SetAll(Matrix(Of T), T)
+- uid: ExMath.Matrix.Matrix`1.SetAll(`0)
+  name: SetAll(T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAll__0_
+  commentId: M:ExMath.Matrix.Matrix`1.SetAll(`0)
+  fullName: ExMath.Matrix.Matrix<T>.SetAll(T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAll(T)
+  nameWithType: Matrix<T>.SetAll(T)
+  nameWithType.vb: Matrix(Of T).SetAll(T)
+- uid: ExMath.Matrix.Matrix`1.SetAll*
+  name: SetAll
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAll_
+  commentId: Overload:ExMath.Matrix.Matrix`1.SetAll
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.SetAll
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAll
+  nameWithType: Matrix<T>.SetAll
+  nameWithType.vb: Matrix(Of T).SetAll
+- uid: ExMath.Matrix.Matrix`1.SetAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)
+  name: SetAt(Matrix<T>, int, int, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAt_ExMath_Matrix_Matrix__0__System_Int32_System_Int32__0_
+  commentId: M:ExMath.Matrix.Matrix`1.SetAt(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,`0)
+  name.vb: SetAt(Matrix(Of T), Integer, Integer, T)
+  fullName: ExMath.Matrix.Matrix<T>.SetAt(ExMath.Matrix.Matrix<T>, int, int, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAt(ExMath.Matrix.Matrix(Of T), Integer, Integer, T)
+  nameWithType: Matrix<T>.SetAt(Matrix<T>, int, int, T)
+  nameWithType.vb: Matrix(Of T).SetAt(Matrix(Of T), Integer, Integer, T)
+- uid: ExMath.Matrix.Matrix`1.SetAt(System.Int32,System.Int32,`0)
+  name: SetAt(int, int, T)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAt_System_Int32_System_Int32__0_
+  commentId: M:ExMath.Matrix.Matrix`1.SetAt(System.Int32,System.Int32,`0)
+  name.vb: SetAt(Integer, Integer, T)
+  fullName: ExMath.Matrix.Matrix<T>.SetAt(int, int, T)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAt(Integer, Integer, T)
+  nameWithType: Matrix<T>.SetAt(int, int, T)
+  nameWithType.vb: Matrix(Of T).SetAt(Integer, Integer, T)
+- uid: ExMath.Matrix.Matrix`1.SetAt*
+  name: SetAt
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_SetAt_
+  commentId: Overload:ExMath.Matrix.Matrix`1.SetAt
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.SetAt
+  fullName.vb: ExMath.Matrix.Matrix(Of T).SetAt
+  nameWithType: Matrix<T>.SetAt
+  nameWithType.vb: Matrix(Of T).SetAt
+- uid: ExMath.Matrix.Matrix`1.Size
+  name: Size
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Size
+  commentId: P:ExMath.Matrix.Matrix`1.Size
+  fullName: ExMath.Matrix.Matrix<T>.Size
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Size
+  nameWithType: Matrix<T>.Size
+  nameWithType.vb: Matrix(Of T).Size
+- uid: ExMath.Matrix.Matrix`1.Size*
+  name: Size
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Size_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Size
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Size
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Size
+  nameWithType: Matrix<T>.Size
+  nameWithType.vb: Matrix(Of T).Size
+- uid: ExMath.Matrix.Matrix`1.ToString
+  name: ToString()
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_ToString
+  commentId: M:ExMath.Matrix.Matrix`1.ToString
+  fullName: ExMath.Matrix.Matrix<T>.ToString()
+  fullName.vb: ExMath.Matrix.Matrix(Of T).ToString()
+  nameWithType: Matrix<T>.ToString()
+  nameWithType.vb: Matrix(Of T).ToString()
+- uid: ExMath.Matrix.Matrix`1.ToString*
+  name: ToString
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_ToString_
+  commentId: Overload:ExMath.Matrix.Matrix`1.ToString
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.ToString
+  fullName.vb: ExMath.Matrix.Matrix(Of T).ToString
+  nameWithType: Matrix<T>.ToString
+  nameWithType.vb: Matrix(Of T).ToString
+- uid: ExMath.Matrix.Matrix`1.Transpose
+  name: Transpose()
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Transpose
+  commentId: M:ExMath.Matrix.Matrix`1.Transpose
+  fullName: ExMath.Matrix.Matrix<T>.Transpose()
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Transpose()
+  nameWithType: Matrix<T>.Transpose()
+  nameWithType.vb: Matrix(Of T).Transpose()
+- uid: ExMath.Matrix.Matrix`1.Transpose(ExMath.Matrix.Matrix{`0})
+  name: Transpose(Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Transpose_ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.Transpose(ExMath.Matrix.Matrix{`0})
+  name.vb: Transpose(Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.Transpose(ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Transpose(ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.Transpose(Matrix<T>)
+  nameWithType.vb: Matrix(Of T).Transpose(Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.Transpose*
+  name: Transpose
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_Transpose_
+  commentId: Overload:ExMath.Matrix.Matrix`1.Transpose
+  isSpec: "True"
+  fullName: ExMath.Matrix.Matrix<T>.Transpose
+  fullName.vb: ExMath.Matrix.Matrix(Of T).Transpose
+  nameWithType: Matrix<T>.Transpose
+  nameWithType.vb: Matrix(Of T).Transpose
+- uid: ExMath.Matrix.Matrix`1.op_Equality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name: operator ==(Matrix<T>, Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Equality_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.op_Equality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name.vb: =(Matrix(Of T), Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.operator ==(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).=(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.operator ==(Matrix<T>, Matrix<T>)
+  nameWithType.vb: Matrix(Of T).=(Matrix(Of T), Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.op_Equality*
+  name: operator ==
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Equality_
+  commentId: Overload:ExMath.Matrix.Matrix`1.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ExMath.Matrix.Matrix<T>.operator ==
+  fullName.vb: ExMath.Matrix.Matrix(Of T).=
+  nameWithType: Matrix<T>.operator ==
+  nameWithType.vb: Matrix(Of T).=
+- uid: ExMath.Matrix.Matrix`1.op_Inequality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name: operator !=(Matrix<T>, Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Inequality_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.op_Inequality(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name.vb: <>(Matrix(Of T), Matrix(Of T))
+  fullName: ExMath.Matrix.Matrix<T>.operator !=(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).<>(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.operator !=(Matrix<T>, Matrix<T>)
+  nameWithType.vb: Matrix(Of T).<>(Matrix(Of T), Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.op_Inequality*
+  name: operator !=
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Inequality_
+  commentId: Overload:ExMath.Matrix.Matrix`1.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ExMath.Matrix.Matrix<T>.operator !=
+  fullName.vb: ExMath.Matrix.Matrix(Of T).<>
+  nameWithType: Matrix<T>.operator !=
+  nameWithType.vb: Matrix(Of T).<>
+- uid: ExMath.Matrix.Matrix`1.op_Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name: operator *(Matrix<T>, Matrix<T>)
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Multiply_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__
+  commentId: M:ExMath.Matrix.Matrix`1.op_Multiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0})
+  name.vb: '*(Matrix(Of T), Matrix(Of T))'
+  fullName: ExMath.Matrix.Matrix<T>.operator *(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.Matrix.Matrix(Of T).*(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T))
+  nameWithType: Matrix<T>.operator *(Matrix<T>, Matrix<T>)
+  nameWithType.vb: Matrix(Of T).*(Matrix(Of T), Matrix(Of T))
+- uid: ExMath.Matrix.Matrix`1.op_Multiply*
+  name: operator *
+  href: api/ExMath.Matrix.Matrix-1.html#ExMath_Matrix_Matrix_1_op_Multiply_
+  commentId: Overload:ExMath.Matrix.Matrix`1.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: ExMath.Matrix.Matrix<T>.operator *
+  fullName.vb: ExMath.Matrix.Matrix(Of T).*
+  nameWithType: Matrix<T>.operator *
+  nameWithType.vb: Matrix(Of T).*
+- uid: ExMath.Statistics.Distributions
+  name: ExMath.Statistics.Distributions
+  href: api/ExMath.Statistics.Distributions.html
+  commentId: N:ExMath.Statistics.Distributions
+  fullName: ExMath.Statistics.Distributions
+  nameWithType: ExMath.Statistics.Distributions
+- uid: ExMath.Statistics.Distributions.BinomialDistribution
+  name: BinomialDistribution
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html
+  commentId: T:ExMath.Statistics.Distributions.BinomialDistribution
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution
+  nameWithType: BinomialDistribution
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(System.UInt32)
+  name: GetCumulativeProbability(uint)
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetCumulativeProbability_System_UInt32_
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(System.UInt32)
+  name.vb: GetCumulativeProbability(UInteger)
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(uint)
+  fullName.vb: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(UInteger)
+  nameWithType: BinomialDistribution.GetCumulativeProbability(uint)
+  nameWithType.vb: BinomialDistribution.GetCumulativeProbability(UInteger)
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(System.UInt32,ExMath.Statistics.Distributions.CumulativeMode)
+  name: GetCumulativeProbability(uint, CumulativeMode)
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetCumulativeProbability_System_UInt32_ExMath_Statistics_Distributions_CumulativeMode_
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(System.UInt32,ExMath.Statistics.Distributions.CumulativeMode)
+  name.vb: GetCumulativeProbability(UInteger, CumulativeMode)
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(uint, ExMath.Statistics.Distributions.CumulativeMode)
+  fullName.vb: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability(UInteger, ExMath.Statistics.Distributions.CumulativeMode)
+  nameWithType: BinomialDistribution.GetCumulativeProbability(uint, CumulativeMode)
+  nameWithType.vb: BinomialDistribution.GetCumulativeProbability(UInteger, CumulativeMode)
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability*
+  name: GetCumulativeProbability
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetCumulativeProbability_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetCumulativeProbability
+  nameWithType: BinomialDistribution.GetCumulativeProbability
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetExpected
+  name: GetExpected()
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetExpected
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetExpected
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetExpected()
+  nameWithType: BinomialDistribution.GetExpected()
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetExpected*
+  name: GetExpected
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetExpected_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetExpected
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetExpected
+  nameWithType: BinomialDistribution.GetExpected
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetInverse(System.Double)
+  name: GetInverse(double)
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetInverse_System_Double_
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetInverse(System.Double)
+  name.vb: GetInverse(Double)
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetInverse(double)
+  fullName.vb: ExMath.Statistics.Distributions.BinomialDistribution.GetInverse(Double)
+  nameWithType: BinomialDistribution.GetInverse(double)
+  nameWithType.vb: BinomialDistribution.GetInverse(Double)
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetInverse_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetInverse
+  nameWithType: BinomialDistribution.GetInverse
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetProbability(System.UInt32)
+  name: GetProbability(uint)
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetProbability_System_UInt32_
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetProbability(System.UInt32)
+  name.vb: GetProbability(UInteger)
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetProbability(uint)
+  fullName.vb: ExMath.Statistics.Distributions.BinomialDistribution.GetProbability(UInteger)
+  nameWithType: BinomialDistribution.GetProbability(uint)
+  nameWithType.vb: BinomialDistribution.GetProbability(UInteger)
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetProbability*
+  name: GetProbability
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetProbability_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetProbability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetProbability
+  nameWithType: BinomialDistribution.GetProbability
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation
+  name: GetStandardDeviation()
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetStandardDeviation
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation()
+  nameWithType: BinomialDistribution.GetStandardDeviation()
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation*
+  name: GetStandardDeviation
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetStandardDeviation_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetStandardDeviation
+  nameWithType: BinomialDistribution.GetStandardDeviation
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetVariance
+  name: GetVariance()
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetVariance
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.GetVariance
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetVariance()
+  nameWithType: BinomialDistribution.GetVariance()
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.GetVariance*
+  name: GetVariance
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_GetVariance_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.GetVariance
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.GetVariance
+  nameWithType: BinomialDistribution.GetVariance
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Model(System.UInt32,System.Double)
+  name: Model(uint, double)
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Model_System_UInt32_System_Double_
+  commentId: M:ExMath.Statistics.Distributions.BinomialDistribution.Model(System.UInt32,System.Double)
+  name.vb: Model(UInteger, Double)
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Model(uint, double)
+  fullName.vb: ExMath.Statistics.Distributions.BinomialDistribution.Model(UInteger, Double)
+  nameWithType: BinomialDistribution.Model(uint, double)
+  nameWithType.vb: BinomialDistribution.Model(UInteger, Double)
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Model*
+  name: Model
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Model_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.Model
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Model
+  nameWithType: BinomialDistribution.Model
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Probability
+  name: Probability
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Probability
+  commentId: P:ExMath.Statistics.Distributions.BinomialDistribution.Probability
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Probability
+  nameWithType: BinomialDistribution.Probability
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Probability*
+  name: Probability
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Probability_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.Probability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Probability
+  nameWithType: BinomialDistribution.Probability
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Trials
+  name: Trials
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Trials
+  commentId: P:ExMath.Statistics.Distributions.BinomialDistribution.Trials
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Trials
+  nameWithType: BinomialDistribution.Trials
+- uid: ExMath.Statistics.Distributions.BinomialDistribution.Trials*
+  name: Trials
+  href: api/ExMath.Statistics.Distributions.BinomialDistribution.html#ExMath_Statistics_Distributions_BinomialDistribution_Trials_
+  commentId: Overload:ExMath.Statistics.Distributions.BinomialDistribution.Trials
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.BinomialDistribution.Trials
+  nameWithType: BinomialDistribution.Trials
+- uid: ExMath.Statistics.Distributions.CumulativeMode
+  name: CumulativeMode
+  href: api/ExMath.Statistics.Distributions.CumulativeMode.html
+  commentId: T:ExMath.Statistics.Distributions.CumulativeMode
+  fullName: ExMath.Statistics.Distributions.CumulativeMode
+  nameWithType: CumulativeMode
+- uid: ExMath.Statistics.Distributions.CumulativeMode.GreaterThan
+  name: GreaterThan
+  href: api/ExMath.Statistics.Distributions.CumulativeMode.html#ExMath_Statistics_Distributions_CumulativeMode_GreaterThan
+  commentId: F:ExMath.Statistics.Distributions.CumulativeMode.GreaterThan
+  fullName: ExMath.Statistics.Distributions.CumulativeMode.GreaterThan
+  nameWithType: CumulativeMode.GreaterThan
+- uid: ExMath.Statistics.Distributions.CumulativeMode.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/ExMath.Statistics.Distributions.CumulativeMode.html#ExMath_Statistics_Distributions_CumulativeMode_GreaterThanOrEqual
+  commentId: F:ExMath.Statistics.Distributions.CumulativeMode.GreaterThanOrEqual
+  fullName: ExMath.Statistics.Distributions.CumulativeMode.GreaterThanOrEqual
+  nameWithType: CumulativeMode.GreaterThanOrEqual
+- uid: ExMath.Statistics.Distributions.CumulativeMode.LessThan
+  name: LessThan
+  href: api/ExMath.Statistics.Distributions.CumulativeMode.html#ExMath_Statistics_Distributions_CumulativeMode_LessThan
+  commentId: F:ExMath.Statistics.Distributions.CumulativeMode.LessThan
+  fullName: ExMath.Statistics.Distributions.CumulativeMode.LessThan
+  nameWithType: CumulativeMode.LessThan
+- uid: ExMath.Statistics.Distributions.CumulativeMode.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/ExMath.Statistics.Distributions.CumulativeMode.html#ExMath_Statistics_Distributions_CumulativeMode_LessThanOrEqual
+  commentId: F:ExMath.Statistics.Distributions.CumulativeMode.LessThanOrEqual
+  fullName: ExMath.Statistics.Distributions.CumulativeMode.LessThanOrEqual
+  nameWithType: CumulativeMode.LessThanOrEqual
+- uid: ExMath.Statistics.Distributions.IDistribution`1
+  name: IDistribution<T>
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html
+  commentId: T:ExMath.Statistics.Distributions.IDistribution`1
+  name.vb: IDistribution(Of T)
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T)
+  nameWithType: IDistribution<T>
+  nameWithType.vb: IDistribution(Of T)
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0)
+  name: GetCumulativeProbability(T)
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability__0_
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0)
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetCumulativeProbability(T)
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetCumulativeProbability(T)
+  nameWithType: IDistribution<T>.GetCumulativeProbability(T)
+  nameWithType.vb: IDistribution(Of T).GetCumulativeProbability(T)
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0,ExMath.Statistics.Distributions.CumulativeMode)
+  name: GetCumulativeProbability(T, CumulativeMode)
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability__0_ExMath_Statistics_Distributions_CumulativeMode_
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability(`0,ExMath.Statistics.Distributions.CumulativeMode)
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetCumulativeProbability(T, ExMath.Statistics.Distributions.CumulativeMode)
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetCumulativeProbability(T, ExMath.Statistics.Distributions.CumulativeMode)
+  nameWithType: IDistribution<T>.GetCumulativeProbability(T, CumulativeMode)
+  nameWithType.vb: IDistribution(Of T).GetCumulativeProbability(T, CumulativeMode)
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability*
+  name: GetCumulativeProbability
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetCumulativeProbability_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetCumulativeProbability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetCumulativeProbability
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetCumulativeProbability
+  nameWithType: IDistribution<T>.GetCumulativeProbability
+  nameWithType.vb: IDistribution(Of T).GetCumulativeProbability
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetExpected
+  name: GetExpected()
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetExpected
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetExpected
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetExpected()
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetExpected()
+  nameWithType: IDistribution<T>.GetExpected()
+  nameWithType.vb: IDistribution(Of T).GetExpected()
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetExpected*
+  name: GetExpected
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetExpected_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetExpected
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetExpected
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetExpected
+  nameWithType: IDistribution<T>.GetExpected
+  nameWithType.vb: IDistribution(Of T).GetExpected
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetInverse(System.Double)
+  name: GetInverse(double)
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetInverse_System_Double_
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetInverse(System.Double)
+  name.vb: GetInverse(Double)
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetInverse(double)
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetInverse(Double)
+  nameWithType: IDistribution<T>.GetInverse(double)
+  nameWithType.vb: IDistribution(Of T).GetInverse(Double)
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetInverse_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetInverse
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetInverse
+  nameWithType: IDistribution<T>.GetInverse
+  nameWithType.vb: IDistribution(Of T).GetInverse
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetProbability(`0)
+  name: GetProbability(T)
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetProbability__0_
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetProbability(`0)
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetProbability(T)
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetProbability(T)
+  nameWithType: IDistribution<T>.GetProbability(T)
+  nameWithType.vb: IDistribution(Of T).GetProbability(T)
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetProbability*
+  name: GetProbability
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetProbability_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetProbability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetProbability
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetProbability
+  nameWithType: IDistribution<T>.GetProbability
+  nameWithType.vb: IDistribution(Of T).GetProbability
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation
+  name: GetStandardDeviation()
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetStandardDeviation
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetStandardDeviation()
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetStandardDeviation()
+  nameWithType: IDistribution<T>.GetStandardDeviation()
+  nameWithType.vb: IDistribution(Of T).GetStandardDeviation()
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation*
+  name: GetStandardDeviation
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetStandardDeviation_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetStandardDeviation
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetStandardDeviation
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetStandardDeviation
+  nameWithType: IDistribution<T>.GetStandardDeviation
+  nameWithType.vb: IDistribution(Of T).GetStandardDeviation
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetVariance
+  name: GetVariance()
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetVariance
+  commentId: M:ExMath.Statistics.Distributions.IDistribution`1.GetVariance
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetVariance()
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetVariance()
+  nameWithType: IDistribution<T>.GetVariance()
+  nameWithType.vb: IDistribution(Of T).GetVariance()
+- uid: ExMath.Statistics.Distributions.IDistribution`1.GetVariance*
+  name: GetVariance
+  href: api/ExMath.Statistics.Distributions.IDistribution-1.html#ExMath_Statistics_Distributions_IDistribution_1_GetVariance_
+  commentId: Overload:ExMath.Statistics.Distributions.IDistribution`1.GetVariance
+  isSpec: "True"
+  fullName: ExMath.Statistics.Distributions.IDistribution<T>.GetVariance
+  fullName.vb: ExMath.Statistics.Distributions.IDistribution(Of T).GetVariance
+  nameWithType: IDistribution<T>.GetVariance
+  nameWithType.vb: IDistribution(Of T).GetVariance
+- uid: ExMath.Statistics.Testing
+  name: ExMath.Statistics.Testing
+  href: api/ExMath.Statistics.Testing.html
+  commentId: N:ExMath.Statistics.Testing
+  fullName: ExMath.Statistics.Testing
+  nameWithType: ExMath.Statistics.Testing
+- uid: ExMath.Statistics.Testing.Equality
+  name: Equality
+  href: api/ExMath.Statistics.Testing.Equality.html
+  commentId: T:ExMath.Statistics.Testing.Equality
+  fullName: ExMath.Statistics.Testing.Equality
+  nameWithType: Equality
+- uid: ExMath.Statistics.Testing.Equality.Equal
+  name: Equal
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_Equal
+  commentId: F:ExMath.Statistics.Testing.Equality.Equal
+  fullName: ExMath.Statistics.Testing.Equality.Equal
+  nameWithType: Equality.Equal
+- uid: ExMath.Statistics.Testing.Equality.GreaterThan
+  name: GreaterThan
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_GreaterThan
+  commentId: F:ExMath.Statistics.Testing.Equality.GreaterThan
+  fullName: ExMath.Statistics.Testing.Equality.GreaterThan
+  nameWithType: Equality.GreaterThan
+- uid: ExMath.Statistics.Testing.Equality.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_GreaterThanOrEqual
+  commentId: F:ExMath.Statistics.Testing.Equality.GreaterThanOrEqual
+  fullName: ExMath.Statistics.Testing.Equality.GreaterThanOrEqual
+  nameWithType: Equality.GreaterThanOrEqual
+- uid: ExMath.Statistics.Testing.Equality.LessThan
+  name: LessThan
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_LessThan
+  commentId: F:ExMath.Statistics.Testing.Equality.LessThan
+  fullName: ExMath.Statistics.Testing.Equality.LessThan
+  nameWithType: Equality.LessThan
+- uid: ExMath.Statistics.Testing.Equality.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_LessThanOrEqual
+  commentId: F:ExMath.Statistics.Testing.Equality.LessThanOrEqual
+  fullName: ExMath.Statistics.Testing.Equality.LessThanOrEqual
+  nameWithType: Equality.LessThanOrEqual
+- uid: ExMath.Statistics.Testing.Equality.NotEqual
+  name: NotEqual
+  href: api/ExMath.Statistics.Testing.Equality.html#ExMath_Statistics_Testing_Equality_NotEqual
+  commentId: F:ExMath.Statistics.Testing.Equality.NotEqual
+  fullName: ExMath.Statistics.Testing.Equality.NotEqual
+  nameWithType: Equality.NotEqual
+- uid: ExMath.Statistics.Testing.Hypothesis
+  name: Hypothesis
+  href: api/ExMath.Statistics.Testing.Hypothesis.html
+  commentId: T:ExMath.Statistics.Testing.Hypothesis
+  fullName: ExMath.Statistics.Testing.Hypothesis
+  nameWithType: Hypothesis
+- uid: ExMath.Statistics.Testing.Hypothesis.Equality
+  name: Equality
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Equality
+  commentId: P:ExMath.Statistics.Testing.Hypothesis.Equality
+  fullName: ExMath.Statistics.Testing.Hypothesis.Equality
+  nameWithType: Hypothesis.Equality
+- uid: ExMath.Statistics.Testing.Hypothesis.Equality*
+  name: Equality
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Equality_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.Equality
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.Hypothesis.Equality
+  nameWithType: Hypothesis.Equality
+- uid: ExMath.Statistics.Testing.Hypothesis.Equals(ExMath.Statistics.Testing.Hypothesis)
+  name: Equals(Hypothesis)
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Equals_ExMath_Statistics_Testing_Hypothesis_
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.Equals(ExMath.Statistics.Testing.Hypothesis)
+  fullName: ExMath.Statistics.Testing.Hypothesis.Equals(ExMath.Statistics.Testing.Hypothesis)
+  nameWithType: Hypothesis.Equals(Hypothesis)
+- uid: ExMath.Statistics.Testing.Hypothesis.Equals(System.Object)
+  name: Equals(object)
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Equals_System_Object_
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Statistics.Testing.Hypothesis.Equals(object)
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.Equals(Object)
+  nameWithType: Hypothesis.Equals(object)
+  nameWithType.vb: Hypothesis.Equals(Object)
+- uid: ExMath.Statistics.Testing.Hypothesis.Equals*
+  name: Equals
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Equals_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.Equals
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.Hypothesis.Equals
+  nameWithType: Hypothesis.Equals
+- uid: ExMath.Statistics.Testing.Hypothesis.Import(ExMath.Statistics.Testing.Equality,System.Double)
+  name: Import(Equality, double)
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Import_ExMath_Statistics_Testing_Equality_System_Double_
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.Import(ExMath.Statistics.Testing.Equality,System.Double)
+  name.vb: Import(Equality, Double)
+  fullName: ExMath.Statistics.Testing.Hypothesis.Import(ExMath.Statistics.Testing.Equality, double)
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.Import(ExMath.Statistics.Testing.Equality, Double)
+  nameWithType: Hypothesis.Import(Equality, double)
+  nameWithType.vb: Hypothesis.Import(Equality, Double)
+- uid: ExMath.Statistics.Testing.Hypothesis.Import*
+  name: Import
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Import_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.Import
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.Hypothesis.Import
+  nameWithType: Hypothesis.Import
+- uid: ExMath.Statistics.Testing.Hypothesis.Probability
+  name: Probability
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Probability
+  commentId: P:ExMath.Statistics.Testing.Hypothesis.Probability
+  fullName: ExMath.Statistics.Testing.Hypothesis.Probability
+  nameWithType: Hypothesis.Probability
+- uid: ExMath.Statistics.Testing.Hypothesis.Probability*
+  name: Probability
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_Probability_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.Probability
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.Hypothesis.Probability
+  nameWithType: Hypothesis.Probability
+- uid: ExMath.Statistics.Testing.Hypothesis.ToString
+  name: ToString()
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_ToString
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.ToString
+  fullName: ExMath.Statistics.Testing.Hypothesis.ToString()
+  nameWithType: Hypothesis.ToString()
+- uid: ExMath.Statistics.Testing.Hypothesis.ToString*
+  name: ToString
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_ToString_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.ToString
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.Hypothesis.ToString
+  nameWithType: Hypothesis.ToString
+- uid: ExMath.Statistics.Testing.Hypothesis.op_Equality(ExMath.Statistics.Testing.Hypothesis,ExMath.Statistics.Testing.Hypothesis)
+  name: operator ==(Hypothesis, Hypothesis)
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_op_Equality_ExMath_Statistics_Testing_Hypothesis_ExMath_Statistics_Testing_Hypothesis_
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.op_Equality(ExMath.Statistics.Testing.Hypothesis,ExMath.Statistics.Testing.Hypothesis)
+  name.vb: =(Hypothesis, Hypothesis)
+  fullName: ExMath.Statistics.Testing.Hypothesis.operator ==(ExMath.Statistics.Testing.Hypothesis, ExMath.Statistics.Testing.Hypothesis)
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.=(ExMath.Statistics.Testing.Hypothesis, ExMath.Statistics.Testing.Hypothesis)
+  nameWithType: Hypothesis.operator ==(Hypothesis, Hypothesis)
+  nameWithType.vb: Hypothesis.=(Hypothesis, Hypothesis)
+- uid: ExMath.Statistics.Testing.Hypothesis.op_Equality*
+  name: operator ==
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_op_Equality_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ExMath.Statistics.Testing.Hypothesis.operator ==
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.=
+  nameWithType: Hypothesis.operator ==
+  nameWithType.vb: Hypothesis.=
+- uid: ExMath.Statistics.Testing.Hypothesis.op_Inequality(ExMath.Statistics.Testing.Hypothesis,ExMath.Statistics.Testing.Hypothesis)
+  name: operator !=(Hypothesis, Hypothesis)
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_op_Inequality_ExMath_Statistics_Testing_Hypothesis_ExMath_Statistics_Testing_Hypothesis_
+  commentId: M:ExMath.Statistics.Testing.Hypothesis.op_Inequality(ExMath.Statistics.Testing.Hypothesis,ExMath.Statistics.Testing.Hypothesis)
+  name.vb: <>(Hypothesis, Hypothesis)
+  fullName: ExMath.Statistics.Testing.Hypothesis.operator !=(ExMath.Statistics.Testing.Hypothesis, ExMath.Statistics.Testing.Hypothesis)
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.<>(ExMath.Statistics.Testing.Hypothesis, ExMath.Statistics.Testing.Hypothesis)
+  nameWithType: Hypothesis.operator !=(Hypothesis, Hypothesis)
+  nameWithType.vb: Hypothesis.<>(Hypothesis, Hypothesis)
+- uid: ExMath.Statistics.Testing.Hypothesis.op_Inequality*
+  name: operator !=
+  href: api/ExMath.Statistics.Testing.Hypothesis.html#ExMath_Statistics_Testing_Hypothesis_op_Inequality_
+  commentId: Overload:ExMath.Statistics.Testing.Hypothesis.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ExMath.Statistics.Testing.Hypothesis.operator !=
+  fullName.vb: ExMath.Statistics.Testing.Hypothesis.<>
+  nameWithType: Hypothesis.operator !=
+  nameWithType.vb: Hypothesis.<>
+- uid: ExMath.Statistics.Testing.HypothesisTest
+  name: HypothesisTest
+  href: api/ExMath.Statistics.Testing.HypothesisTest.html
+  commentId: T:ExMath.Statistics.Testing.HypothesisTest
+  fullName: ExMath.Statistics.Testing.HypothesisTest
+  nameWithType: HypothesisTest
+- uid: ExMath.Statistics.Testing.HypothesisTest.Test*
+  name: Test
+  href: api/ExMath.Statistics.Testing.HypothesisTest.html#ExMath_Statistics_Testing_HypothesisTest_Test_
+  commentId: Overload:ExMath.Statistics.Testing.HypothesisTest.Test
+  isSpec: "True"
+  fullName: ExMath.Statistics.Testing.HypothesisTest.Test
+  nameWithType: HypothesisTest.Test
+- uid: ExMath.Statistics.Testing.HypothesisTest.Test``1(ExMath.Statistics.Distributions.IDistribution{``0},ExMath.Statistics.Testing.Hypothesis,``0,System.Double)
+  name: Test<T>(IDistribution<T>, Hypothesis, T, double)
+  href: api/ExMath.Statistics.Testing.HypothesisTest.html#ExMath_Statistics_Testing_HypothesisTest_Test__1_ExMath_Statistics_Distributions_IDistribution___0__ExMath_Statistics_Testing_Hypothesis___0_System_Double_
+  commentId: M:ExMath.Statistics.Testing.HypothesisTest.Test``1(ExMath.Statistics.Distributions.IDistribution{``0},ExMath.Statistics.Testing.Hypothesis,``0,System.Double)
+  name.vb: Test(Of T)(IDistribution(Of T), Hypothesis, T, Double)
+  fullName: ExMath.Statistics.Testing.HypothesisTest.Test<T>(ExMath.Statistics.Distributions.IDistribution<T>, ExMath.Statistics.Testing.Hypothesis, T, double)
+  fullName.vb: ExMath.Statistics.Testing.HypothesisTest.Test(Of T)(ExMath.Statistics.Distributions.IDistribution(Of T), ExMath.Statistics.Testing.Hypothesis, T, Double)
+  nameWithType: HypothesisTest.Test<T>(IDistribution<T>, Hypothesis, T, double)
+  nameWithType.vb: HypothesisTest.Test(Of T)(IDistribution(Of T), Hypothesis, T, Double)
