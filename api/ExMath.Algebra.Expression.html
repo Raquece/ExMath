@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Expression
+ | ExMath </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Expression
+ | ExMath ">
+      
+      <link rel="icon" href="../images/favicon.svg">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Raquece/ExMath/new/master/apiSpec/new?filename=ExMath_Algebra_Expression.md&amp;value=---%0Auid%3A%20ExMath.Algebra.Expression%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/favicon.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ExMath.Algebra.Expression">
+
+
+
+  <h1 id="ExMath_Algebra_Expression" data-uid="ExMath.Algebra.Expression" class="text-break">
+    Class Expression
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ExMath.html">ExMath</a>.<a class="xref" href="ExMath.Algebra.html">Algebra</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ExMath.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A mathematical expresion represented in a parse tree format.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Expression</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Expression</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="ExMath.Extensions.Cloning.html#ExMath_Extensions_Cloning_DeepClone__1___0_">Cloning.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ExMath_Algebra_Expression_LexicalTokens_" data-uid="ExMath.Algebra.Expression.LexicalTokens*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_LexicalTokens" data-uid="ExMath.Algebra.Expression.LexicalTokens">
+  LexicalTokens
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the list of tokens devised from lexical analysis of this expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Token&gt;? LexicalTokens { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ExMath.Algebra.Analysis.Token.html">Token</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ExMath_Algebra_Expression_Tree_" data-uid="ExMath.Algebra.Expression.Tree*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Tree" data-uid="ExMath.Algebra.Expression.Tree">
+  Tree
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The parse tree of this expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tree&lt;Token&gt;? Tree { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Discrete.Graphs.Tree-1.html">Tree</a>&lt;<a class="xref" href="ExMath.Algebra.Analysis.Token.html">Token</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ExMath_Algebra_Expression_AddOperation_" data-uid="ExMath.Algebra.Expression.AddOperation*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_AddOperation_ExMath_Algebra_Analysis_Token_System_Int32_ExMath_Algebra_Analysis_Token___" data-uid="ExMath.Algebra.Expression.AddOperation(ExMath.Algebra.Analysis.Token,System.Int32,ExMath.Algebra.Analysis.Token[])">
+  AddOperation(Token, int, params Token[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds an operation to the expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddOperation(Token operation, int position, params Token[] operands)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>operation</code> <a class="xref" href="ExMath.Algebra.Analysis.Token.html">Token</a></dt>
+    <dd><p>The operation to add.</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The position of the current expression in the operand order.</p>
+</dd>
+    <dt><code>operands</code> <a class="xref" href="ExMath.Algebra.Analysis.Token.html">Token</a>[]</dt>
+    <dd><p>The extra operands to add to this equation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the expression tree has not yet been formed.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Thrown if token is null.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if token is not a valid operation.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>Thrown if position is not within the boundaries of the operands array.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ExMath_Algebra_Expression_Evaluate_" data-uid="ExMath.Algebra.Expression.Evaluate*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Evaluate" data-uid="ExMath.Algebra.Expression.Evaluate">
+  Evaluate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluate the expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic Evaluate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd><p>The resulting value of the evaluation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Algebra_Expression_Evaluate_" data-uid="ExMath.Algebra.Expression.Evaluate*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Evaluate_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__" data-uid="ExMath.Algebra.Expression.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})">
+  Evaluate(Dictionary&lt;NumericVariable, dynamic&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluates the expression using a dictionary of values for numeric variables.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic Evaluate(Dictionary&lt;NumericVariable, dynamic&gt;? variables)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>variables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="ExMath.Algebra.NumericVariable.html">NumericVariable</a>, <span class="xref">dynamic</span>&gt;</dt>
+    <dd><p>The dictionaries of values for numeric variables.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd><p>The resulting value of the evaluation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if an expression tree has not yet been created.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ExMath_Algebra_Expression_Parse_" data-uid="ExMath.Algebra.Expression.Parse*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Parse_System_String_" data-uid="ExMath.Algebra.Expression.Parse(System.String)">
+  Parse(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Parses an expression from a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Parse(string expression)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string of the equation to parse.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ExMath.Algebra.Expression.html">Expression</a></dt>
+    <dd><p>The parsed expression.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Algebra_Expression_Simplify_" data-uid="ExMath.Algebra.Expression.Simplify*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Simplify" data-uid="ExMath.Algebra.Expression.Simplify">
+  Simplify()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Simplifies this expression by evaluating each branch that can be evaluated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Simplify()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ExMath_Algebra_Expression_Simplify_" data-uid="ExMath.Algebra.Expression.Simplify*"></a>
+
+  <h3 id="ExMath_Algebra_Expression_Simplify_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__" data-uid="ExMath.Algebra.Expression.Simplify(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})">
+  Simplify(Dictionary&lt;NumericVariable, dynamic&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Simplifies this expression by evaluating each branch that can be evaluated and by using a dictionary of each unknown's value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Simplify(Dictionary&lt;NumericVariable, dynamic&gt;? variables)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>variables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="ExMath.Algebra.NumericVariable.html">NumericVariable</a>, <span class="xref">dynamic</span>&gt;</dt>
+    <dd><p>The dictionaries of values for numeric variables.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the expression tree is not formed.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Raquece/ExMath/blob/master/src/ExMath/Algebra/Expression.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

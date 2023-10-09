@@ -4,6 +4,186 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Analysis.LexicalToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Analysis.LexicalToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Analysis.OperatorPrecendence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Analysis.OperatorPrecendence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Analysis.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Analysis.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Analysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Analysis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Equation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Equation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.Expression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.Expression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.NumericVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.NumericVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Algebra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Algebra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Functions.AddOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Functions.AddOperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Functions.DivideOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Functions.DivideOperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Functions.MultiplyOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Functions.MultiplyOperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Functions.SubtractOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Functions.SubtractOperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.IFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.IFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Operators.PowerOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Operators.PowerOperator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.Operators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.Operators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Calculus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Calculus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ExMath.Discrete.Graphs.DirectedGraph-1.yml",
       "output": {
         ".html": {
@@ -44,6 +224,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Discrete.Graphs.Tree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Discrete.Graphs.Tree-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ExMath.Discrete.Graphs.UndirectedGraph-1.yml",
       "output": {
         ".html": {
@@ -78,6 +268,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ExMath.Exceptions.InvalidNumericTypeException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.Exceptions.UnknownNumericVariableException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.Exceptions.UnknownNumericVariableException.html"
         }
       },
       "version": ""

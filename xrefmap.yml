@@ -7,6 +7,1112 @@ references:
   commentId: N:ExMath
   fullName: ExMath
   nameWithType: ExMath
+- uid: ExMath.Algebra
+  name: ExMath.Algebra
+  href: api/ExMath.Algebra.html
+  commentId: N:ExMath.Algebra
+  fullName: ExMath.Algebra
+  nameWithType: ExMath.Algebra
+- uid: ExMath.Algebra.Analysis
+  name: ExMath.Algebra.Analysis
+  href: api/ExMath.Algebra.Analysis.html
+  commentId: N:ExMath.Algebra.Analysis
+  fullName: ExMath.Algebra.Analysis
+  nameWithType: ExMath.Algebra.Analysis
+- uid: ExMath.Algebra.Analysis.LexicalToken
+  name: LexicalToken
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html
+  commentId: T:ExMath.Algebra.Analysis.LexicalToken
+  fullName: ExMath.Algebra.Analysis.LexicalToken
+  nameWithType: LexicalToken
+- uid: ExMath.Algebra.Analysis.LexicalToken.CLOSE_PARANTESIS
+  name: CLOSE_PARANTESIS
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_CLOSE_PARANTESIS
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.CLOSE_PARANTESIS
+  fullName: ExMath.Algebra.Analysis.LexicalToken.CLOSE_PARANTESIS
+  nameWithType: LexicalToken.CLOSE_PARANTESIS
+- uid: ExMath.Algebra.Analysis.LexicalToken.FUNCTION
+  name: FUNCTION
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_FUNCTION
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.FUNCTION
+  fullName: ExMath.Algebra.Analysis.LexicalToken.FUNCTION
+  nameWithType: LexicalToken.FUNCTION
+- uid: ExMath.Algebra.Analysis.LexicalToken.NULL
+  name: "NULL"
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_NULL
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.NULL
+  fullName: ExMath.Algebra.Analysis.LexicalToken.NULL
+  nameWithType: LexicalToken.NULL
+- uid: ExMath.Algebra.Analysis.LexicalToken.NUMERIC_LITERAL
+  name: NUMERIC_LITERAL
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_NUMERIC_LITERAL
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.NUMERIC_LITERAL
+  fullName: ExMath.Algebra.Analysis.LexicalToken.NUMERIC_LITERAL
+  nameWithType: LexicalToken.NUMERIC_LITERAL
+- uid: ExMath.Algebra.Analysis.LexicalToken.NUMERIC_UNKNOWN
+  name: NUMERIC_UNKNOWN
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_NUMERIC_UNKNOWN
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.NUMERIC_UNKNOWN
+  fullName: ExMath.Algebra.Analysis.LexicalToken.NUMERIC_UNKNOWN
+  nameWithType: LexicalToken.NUMERIC_UNKNOWN
+- uid: ExMath.Algebra.Analysis.LexicalToken.OPEN_PARANTHESIS
+  name: OPEN_PARANTHESIS
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_OPEN_PARANTHESIS
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.OPEN_PARANTHESIS
+  fullName: ExMath.Algebra.Analysis.LexicalToken.OPEN_PARANTHESIS
+  nameWithType: LexicalToken.OPEN_PARANTHESIS
+- uid: ExMath.Algebra.Analysis.LexicalToken.OPERATOR
+  name: OPERATOR
+  href: api/ExMath.Algebra.Analysis.LexicalToken.html#ExMath_Algebra_Analysis_LexicalToken_OPERATOR
+  commentId: F:ExMath.Algebra.Analysis.LexicalToken.OPERATOR
+  fullName: ExMath.Algebra.Analysis.LexicalToken.OPERATOR
+  nameWithType: LexicalToken.OPERATOR
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence
+  name: OperatorPrecendence
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html
+  commentId: T:ExMath.Algebra.Analysis.OperatorPrecendence
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence
+  nameWithType: OperatorPrecendence
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence.ADDITION
+  name: ADDITION
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html#ExMath_Algebra_Analysis_OperatorPrecendence_ADDITION
+  commentId: F:ExMath.Algebra.Analysis.OperatorPrecendence.ADDITION
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence.ADDITION
+  nameWithType: OperatorPrecendence.ADDITION
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence.BRACKET
+  name: BRACKET
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html#ExMath_Algebra_Analysis_OperatorPrecendence_BRACKET
+  commentId: F:ExMath.Algebra.Analysis.OperatorPrecendence.BRACKET
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence.BRACKET
+  nameWithType: OperatorPrecendence.BRACKET
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence.INDEX
+  name: INDEX
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html#ExMath_Algebra_Analysis_OperatorPrecendence_INDEX
+  commentId: F:ExMath.Algebra.Analysis.OperatorPrecendence.INDEX
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence.INDEX
+  nameWithType: OperatorPrecendence.INDEX
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence.MULTIPLICATION
+  name: MULTIPLICATION
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html#ExMath_Algebra_Analysis_OperatorPrecendence_MULTIPLICATION
+  commentId: F:ExMath.Algebra.Analysis.OperatorPrecendence.MULTIPLICATION
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence.MULTIPLICATION
+  nameWithType: OperatorPrecendence.MULTIPLICATION
+- uid: ExMath.Algebra.Analysis.OperatorPrecendence.NULL
+  name: "NULL"
+  href: api/ExMath.Algebra.Analysis.OperatorPrecendence.html#ExMath_Algebra_Analysis_OperatorPrecendence_NULL
+  commentId: F:ExMath.Algebra.Analysis.OperatorPrecendence.NULL
+  fullName: ExMath.Algebra.Analysis.OperatorPrecendence.NULL
+  nameWithType: OperatorPrecendence.NULL
+- uid: ExMath.Algebra.Analysis.Token
+  name: Token
+  href: api/ExMath.Algebra.Analysis.Token.html
+  commentId: T:ExMath.Algebra.Analysis.Token
+  fullName: ExMath.Algebra.Analysis.Token
+  nameWithType: Token
+- uid: ExMath.Algebra.Analysis.Token.#ctor(ExMath.Algebra.Analysis.LexicalToken,System.Object,ExMath.Algebra.Analysis.OperatorPrecendence)
+  name: Token(LexicalToken, object?, OperatorPrecendence)
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token__ctor_ExMath_Algebra_Analysis_LexicalToken_System_Object_ExMath_Algebra_Analysis_OperatorPrecendence_
+  commentId: M:ExMath.Algebra.Analysis.Token.#ctor(ExMath.Algebra.Analysis.LexicalToken,System.Object,ExMath.Algebra.Analysis.OperatorPrecendence)
+  name.vb: New(LexicalToken, Object, OperatorPrecendence)
+  fullName: ExMath.Algebra.Analysis.Token.Token(ExMath.Algebra.Analysis.LexicalToken, object?, ExMath.Algebra.Analysis.OperatorPrecendence)
+  fullName.vb: ExMath.Algebra.Analysis.Token.New(ExMath.Algebra.Analysis.LexicalToken, Object, ExMath.Algebra.Analysis.OperatorPrecendence)
+  nameWithType: Token.Token(LexicalToken, object?, OperatorPrecendence)
+  nameWithType.vb: Token.New(LexicalToken, Object, OperatorPrecendence)
+- uid: ExMath.Algebra.Analysis.Token.#ctor*
+  name: Token
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token__ctor_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Algebra.Analysis.Token.Token
+  fullName.vb: ExMath.Algebra.Analysis.Token.New
+  nameWithType: Token.Token
+  nameWithType.vb: Token.New
+- uid: ExMath.Algebra.Analysis.Token.Data
+  name: Data
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_Data
+  commentId: P:ExMath.Algebra.Analysis.Token.Data
+  fullName: ExMath.Algebra.Analysis.Token.Data
+  nameWithType: Token.Data
+- uid: ExMath.Algebra.Analysis.Token.Data*
+  name: Data
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_Data_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.Data
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.Data
+  nameWithType: Token.Data
+- uid: ExMath.Algebra.Analysis.Token.IsOperator
+  name: IsOperator
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_IsOperator
+  commentId: P:ExMath.Algebra.Analysis.Token.IsOperator
+  fullName: ExMath.Algebra.Analysis.Token.IsOperator
+  nameWithType: Token.IsOperator
+- uid: ExMath.Algebra.Analysis.Token.IsOperator*
+  name: IsOperator
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_IsOperator_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.IsOperator
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.IsOperator
+  nameWithType: Token.IsOperator
+- uid: ExMath.Algebra.Analysis.Token.LexicalToken
+  name: LexicalToken
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_LexicalToken
+  commentId: P:ExMath.Algebra.Analysis.Token.LexicalToken
+  fullName: ExMath.Algebra.Analysis.Token.LexicalToken
+  nameWithType: Token.LexicalToken
+- uid: ExMath.Algebra.Analysis.Token.LexicalToken*
+  name: LexicalToken
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_LexicalToken_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.LexicalToken
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.LexicalToken
+  nameWithType: Token.LexicalToken
+- uid: ExMath.Algebra.Analysis.Token.OperandCount
+  name: OperandCount
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_OperandCount
+  commentId: P:ExMath.Algebra.Analysis.Token.OperandCount
+  fullName: ExMath.Algebra.Analysis.Token.OperandCount
+  nameWithType: Token.OperandCount
+- uid: ExMath.Algebra.Analysis.Token.OperandCount*
+  name: OperandCount
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_OperandCount_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.OperandCount
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.OperandCount
+  nameWithType: Token.OperandCount
+- uid: ExMath.Algebra.Analysis.Token.Precendence
+  name: Precendence
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_Precendence
+  commentId: P:ExMath.Algebra.Analysis.Token.Precendence
+  fullName: ExMath.Algebra.Analysis.Token.Precendence
+  nameWithType: Token.Precendence
+- uid: ExMath.Algebra.Analysis.Token.Precendence*
+  name: Precendence
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_Precendence_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.Precendence
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.Precendence
+  nameWithType: Token.Precendence
+- uid: ExMath.Algebra.Analysis.Token.ToString
+  name: ToString()
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_ToString
+  commentId: M:ExMath.Algebra.Analysis.Token.ToString
+  fullName: ExMath.Algebra.Analysis.Token.ToString()
+  nameWithType: Token.ToString()
+- uid: ExMath.Algebra.Analysis.Token.ToString*
+  name: ToString
+  href: api/ExMath.Algebra.Analysis.Token.html#ExMath_Algebra_Analysis_Token_ToString_
+  commentId: Overload:ExMath.Algebra.Analysis.Token.ToString
+  isSpec: "True"
+  fullName: ExMath.Algebra.Analysis.Token.ToString
+  nameWithType: Token.ToString
+- uid: ExMath.Algebra.Equation
+  name: Equation
+  href: api/ExMath.Algebra.Equation.html
+  commentId: T:ExMath.Algebra.Equation
+  fullName: ExMath.Algebra.Equation
+  nameWithType: Equation
+- uid: ExMath.Algebra.Equation.#ctor(ExMath.Algebra.Expression,ExMath.Algebra.Expression)
+  name: Equation(Expression, Expression)
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation__ctor_ExMath_Algebra_Expression_ExMath_Algebra_Expression_
+  commentId: M:ExMath.Algebra.Equation.#ctor(ExMath.Algebra.Expression,ExMath.Algebra.Expression)
+  name.vb: New(Expression, Expression)
+  fullName: ExMath.Algebra.Equation.Equation(ExMath.Algebra.Expression, ExMath.Algebra.Expression)
+  fullName.vb: ExMath.Algebra.Equation.New(ExMath.Algebra.Expression, ExMath.Algebra.Expression)
+  nameWithType: Equation.Equation(Expression, Expression)
+  nameWithType.vb: Equation.New(Expression, Expression)
+- uid: ExMath.Algebra.Equation.#ctor*
+  name: Equation
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation__ctor_
+  commentId: Overload:ExMath.Algebra.Equation.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Algebra.Equation.Equation
+  fullName.vb: ExMath.Algebra.Equation.New
+  nameWithType: Equation.Equation
+  nameWithType.vb: Equation.New
+- uid: ExMath.Algebra.Equation.LHS
+  name: LHS
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_LHS
+  commentId: P:ExMath.Algebra.Equation.LHS
+  fullName: ExMath.Algebra.Equation.LHS
+  nameWithType: Equation.LHS
+- uid: ExMath.Algebra.Equation.LHS*
+  name: LHS
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_LHS_
+  commentId: Overload:ExMath.Algebra.Equation.LHS
+  isSpec: "True"
+  fullName: ExMath.Algebra.Equation.LHS
+  nameWithType: Equation.LHS
+- uid: ExMath.Algebra.Equation.RHS
+  name: RHS
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_RHS
+  commentId: P:ExMath.Algebra.Equation.RHS
+  fullName: ExMath.Algebra.Equation.RHS
+  nameWithType: Equation.RHS
+- uid: ExMath.Algebra.Equation.RHS*
+  name: RHS
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_RHS_
+  commentId: Overload:ExMath.Algebra.Equation.RHS
+  isSpec: "True"
+  fullName: ExMath.Algebra.Equation.RHS
+  nameWithType: Equation.RHS
+- uid: ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable)
+  name: SimpleSolve(NumericVariable)
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_SimpleSolve_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable)
+  fullName: ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable)
+  nameWithType: Equation.SimpleSolve(NumericVariable)
+- uid: ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable,System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name: SimpleSolve(NumericVariable, Dictionary<NumericVariable, dynamic>?)
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_SimpleSolve_ExMath_Algebra_NumericVariable_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__
+  commentId: M:ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable,System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name.vb: SimpleSolve(NumericVariable, Dictionary(Of NumericVariable, Object))
+  fullName: ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable, System.Collections.Generic.Dictionary<ExMath.Algebra.NumericVariable, dynamic>?)
+  fullName.vb: ExMath.Algebra.Equation.SimpleSolve(ExMath.Algebra.NumericVariable, System.Collections.Generic.Dictionary(Of ExMath.Algebra.NumericVariable, Object))
+  nameWithType: Equation.SimpleSolve(NumericVariable, Dictionary<NumericVariable, dynamic>?)
+  nameWithType.vb: Equation.SimpleSolve(NumericVariable, Dictionary(Of NumericVariable, Object))
+- uid: ExMath.Algebra.Equation.SimpleSolve*
+  name: SimpleSolve
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_SimpleSolve_
+  commentId: Overload:ExMath.Algebra.Equation.SimpleSolve
+  isSpec: "True"
+  fullName: ExMath.Algebra.Equation.SimpleSolve
+  nameWithType: Equation.SimpleSolve
+- uid: ExMath.Algebra.Equation.UnknownCount
+  name: UnknownCount
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_UnknownCount
+  commentId: P:ExMath.Algebra.Equation.UnknownCount
+  fullName: ExMath.Algebra.Equation.UnknownCount
+  nameWithType: Equation.UnknownCount
+- uid: ExMath.Algebra.Equation.UnknownCount*
+  name: UnknownCount
+  href: api/ExMath.Algebra.Equation.html#ExMath_Algebra_Equation_UnknownCount_
+  commentId: Overload:ExMath.Algebra.Equation.UnknownCount
+  isSpec: "True"
+  fullName: ExMath.Algebra.Equation.UnknownCount
+  nameWithType: Equation.UnknownCount
+- uid: ExMath.Algebra.Expression
+  name: Expression
+  href: api/ExMath.Algebra.Expression.html
+  commentId: T:ExMath.Algebra.Expression
+  fullName: ExMath.Algebra.Expression
+  nameWithType: Expression
+- uid: ExMath.Algebra.Expression.AddOperation(ExMath.Algebra.Analysis.Token,System.Int32,ExMath.Algebra.Analysis.Token[])
+  name: AddOperation(Token, int, params Token[])
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_AddOperation_ExMath_Algebra_Analysis_Token_System_Int32_ExMath_Algebra_Analysis_Token___
+  commentId: M:ExMath.Algebra.Expression.AddOperation(ExMath.Algebra.Analysis.Token,System.Int32,ExMath.Algebra.Analysis.Token[])
+  name.vb: AddOperation(Token, Integer, ParamArray Token())
+  fullName: ExMath.Algebra.Expression.AddOperation(ExMath.Algebra.Analysis.Token, int, params ExMath.Algebra.Analysis.Token[])
+  fullName.vb: ExMath.Algebra.Expression.AddOperation(ExMath.Algebra.Analysis.Token, Integer, ParamArray ExMath.Algebra.Analysis.Token())
+  nameWithType: Expression.AddOperation(Token, int, params Token[])
+  nameWithType.vb: Expression.AddOperation(Token, Integer, ParamArray Token())
+- uid: ExMath.Algebra.Expression.AddOperation*
+  name: AddOperation
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_AddOperation_
+  commentId: Overload:ExMath.Algebra.Expression.AddOperation
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.AddOperation
+  nameWithType: Expression.AddOperation
+- uid: ExMath.Algebra.Expression.Evaluate
+  name: Evaluate()
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Evaluate
+  commentId: M:ExMath.Algebra.Expression.Evaluate
+  fullName: ExMath.Algebra.Expression.Evaluate()
+  nameWithType: Expression.Evaluate()
+- uid: ExMath.Algebra.Expression.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name: Evaluate(Dictionary<NumericVariable, dynamic>?)
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Evaluate_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__
+  commentId: M:ExMath.Algebra.Expression.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name.vb: Evaluate(Dictionary(Of NumericVariable, Object))
+  fullName: ExMath.Algebra.Expression.Evaluate(System.Collections.Generic.Dictionary<ExMath.Algebra.NumericVariable, dynamic>?)
+  fullName.vb: ExMath.Algebra.Expression.Evaluate(System.Collections.Generic.Dictionary(Of ExMath.Algebra.NumericVariable, Object))
+  nameWithType: Expression.Evaluate(Dictionary<NumericVariable, dynamic>?)
+  nameWithType.vb: Expression.Evaluate(Dictionary(Of NumericVariable, Object))
+- uid: ExMath.Algebra.Expression.Evaluate*
+  name: Evaluate
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Evaluate_
+  commentId: Overload:ExMath.Algebra.Expression.Evaluate
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.Evaluate
+  nameWithType: Expression.Evaluate
+- uid: ExMath.Algebra.Expression.LexicalTokens
+  name: LexicalTokens
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_LexicalTokens
+  commentId: P:ExMath.Algebra.Expression.LexicalTokens
+  fullName: ExMath.Algebra.Expression.LexicalTokens
+  nameWithType: Expression.LexicalTokens
+- uid: ExMath.Algebra.Expression.LexicalTokens*
+  name: LexicalTokens
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_LexicalTokens_
+  commentId: Overload:ExMath.Algebra.Expression.LexicalTokens
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.LexicalTokens
+  nameWithType: Expression.LexicalTokens
+- uid: ExMath.Algebra.Expression.Parse(System.String)
+  name: Parse(string)
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Parse_System_String_
+  commentId: M:ExMath.Algebra.Expression.Parse(System.String)
+  name.vb: Parse(String)
+  fullName: ExMath.Algebra.Expression.Parse(string)
+  fullName.vb: ExMath.Algebra.Expression.Parse(String)
+  nameWithType: Expression.Parse(string)
+  nameWithType.vb: Expression.Parse(String)
+- uid: ExMath.Algebra.Expression.Parse*
+  name: Parse
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Parse_
+  commentId: Overload:ExMath.Algebra.Expression.Parse
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.Parse
+  nameWithType: Expression.Parse
+- uid: ExMath.Algebra.Expression.Simplify
+  name: Simplify()
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Simplify
+  commentId: M:ExMath.Algebra.Expression.Simplify
+  fullName: ExMath.Algebra.Expression.Simplify()
+  nameWithType: Expression.Simplify()
+- uid: ExMath.Algebra.Expression.Simplify(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name: Simplify(Dictionary<NumericVariable, dynamic>?)
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Simplify_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__
+  commentId: M:ExMath.Algebra.Expression.Simplify(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object})
+  name.vb: Simplify(Dictionary(Of NumericVariable, Object))
+  fullName: ExMath.Algebra.Expression.Simplify(System.Collections.Generic.Dictionary<ExMath.Algebra.NumericVariable, dynamic>?)
+  fullName.vb: ExMath.Algebra.Expression.Simplify(System.Collections.Generic.Dictionary(Of ExMath.Algebra.NumericVariable, Object))
+  nameWithType: Expression.Simplify(Dictionary<NumericVariable, dynamic>?)
+  nameWithType.vb: Expression.Simplify(Dictionary(Of NumericVariable, Object))
+- uid: ExMath.Algebra.Expression.Simplify*
+  name: Simplify
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Simplify_
+  commentId: Overload:ExMath.Algebra.Expression.Simplify
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.Simplify
+  nameWithType: Expression.Simplify
+- uid: ExMath.Algebra.Expression.Tree
+  name: Tree
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Tree
+  commentId: P:ExMath.Algebra.Expression.Tree
+  fullName: ExMath.Algebra.Expression.Tree
+  nameWithType: Expression.Tree
+- uid: ExMath.Algebra.Expression.Tree*
+  name: Tree
+  href: api/ExMath.Algebra.Expression.html#ExMath_Algebra_Expression_Tree_
+  commentId: Overload:ExMath.Algebra.Expression.Tree
+  isSpec: "True"
+  fullName: ExMath.Algebra.Expression.Tree
+  nameWithType: Expression.Tree
+- uid: ExMath.Algebra.NumericVariable
+  name: NumericVariable
+  href: api/ExMath.Algebra.NumericVariable.html
+  commentId: T:ExMath.Algebra.NumericVariable
+  fullName: ExMath.Algebra.NumericVariable
+  nameWithType: NumericVariable
+- uid: ExMath.Algebra.NumericVariable.#ctor(System.String)
+  name: NumericVariable(string)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable__ctor_System_String_
+  commentId: M:ExMath.Algebra.NumericVariable.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ExMath.Algebra.NumericVariable.NumericVariable(string)
+  fullName.vb: ExMath.Algebra.NumericVariable.New(String)
+  nameWithType: NumericVariable.NumericVariable(string)
+  nameWithType.vb: NumericVariable.New(String)
+- uid: ExMath.Algebra.NumericVariable.#ctor*
+  name: NumericVariable
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable__ctor_
+  commentId: Overload:ExMath.Algebra.NumericVariable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Algebra.NumericVariable.NumericVariable
+  fullName.vb: ExMath.Algebra.NumericVariable.New
+  nameWithType: NumericVariable.NumericVariable
+  nameWithType.vb: NumericVariable.New
+- uid: ExMath.Algebra.NumericVariable.Clear
+  name: Clear()
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Clear
+  commentId: M:ExMath.Algebra.NumericVariable.Clear
+  fullName: ExMath.Algebra.NumericVariable.Clear()
+  nameWithType: NumericVariable.Clear()
+- uid: ExMath.Algebra.NumericVariable.Clear*
+  name: Clear
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Clear_
+  commentId: Overload:ExMath.Algebra.NumericVariable.Clear
+  isSpec: "True"
+  fullName: ExMath.Algebra.NumericVariable.Clear
+  nameWithType: NumericVariable.Clear
+- uid: ExMath.Algebra.NumericVariable.Equals(ExMath.Algebra.NumericVariable)
+  name: Equals(NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Equals_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.Equals(ExMath.Algebra.NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.Equals(ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.Equals(NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.Equals(System.Object)
+  name: Equals(object?)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Equals_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ExMath.Algebra.NumericVariable.Equals(object?)
+  fullName.vb: ExMath.Algebra.NumericVariable.Equals(Object)
+  nameWithType: NumericVariable.Equals(object?)
+  nameWithType.vb: NumericVariable.Equals(Object)
+- uid: ExMath.Algebra.NumericVariable.Equals*
+  name: Equals
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Equals_
+  commentId: Overload:ExMath.Algebra.NumericVariable.Equals
+  isSpec: "True"
+  fullName: ExMath.Algebra.NumericVariable.Equals
+  nameWithType: NumericVariable.Equals
+- uid: ExMath.Algebra.NumericVariable.GetHashCode
+  name: GetHashCode()
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_GetHashCode
+  commentId: M:ExMath.Algebra.NumericVariable.GetHashCode
+  fullName: ExMath.Algebra.NumericVariable.GetHashCode()
+  nameWithType: NumericVariable.GetHashCode()
+- uid: ExMath.Algebra.NumericVariable.GetHashCode*
+  name: GetHashCode
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_GetHashCode_
+  commentId: Overload:ExMath.Algebra.NumericVariable.GetHashCode
+  isSpec: "True"
+  fullName: ExMath.Algebra.NumericVariable.GetHashCode
+  nameWithType: NumericVariable.GetHashCode
+- uid: ExMath.Algebra.NumericVariable.ID
+  name: ID
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_ID
+  commentId: P:ExMath.Algebra.NumericVariable.ID
+  fullName: ExMath.Algebra.NumericVariable.ID
+  nameWithType: NumericVariable.ID
+- uid: ExMath.Algebra.NumericVariable.ID*
+  name: ID
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_ID_
+  commentId: Overload:ExMath.Algebra.NumericVariable.ID
+  isSpec: "True"
+  fullName: ExMath.Algebra.NumericVariable.ID
+  nameWithType: NumericVariable.ID
+- uid: ExMath.Algebra.NumericVariable.Set(System.Object)
+  name: Set(dynamic)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Set_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.Set(System.Object)
+  name.vb: Set(Object)
+  fullName: ExMath.Algebra.NumericVariable.Set(dynamic)
+  fullName.vb: ExMath.Algebra.NumericVariable.Set(Object)
+  nameWithType: NumericVariable.Set(dynamic)
+  nameWithType.vb: NumericVariable.Set(Object)
+- uid: ExMath.Algebra.NumericVariable.Set*
+  name: Set
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_Set_
+  commentId: Overload:ExMath.Algebra.NumericVariable.Set
+  isSpec: "True"
+  fullName: ExMath.Algebra.NumericVariable.Set
+  nameWithType: NumericVariable.Set
+- uid: ExMath.Algebra.NumericVariable.op_Addition(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator +(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Addition_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Addition(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: +(NumericVariable, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator +(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.+(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator +(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable.+(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Addition(ExMath.Algebra.NumericVariable,System.Object)
+  name: operator +(NumericVariable, dynamic)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Addition_ExMath_Algebra_NumericVariable_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Addition(ExMath.Algebra.NumericVariable,System.Object)
+  name.vb: +(NumericVariable, Object)
+  fullName: ExMath.Algebra.NumericVariable.operator +(ExMath.Algebra.NumericVariable, dynamic)
+  fullName.vb: ExMath.Algebra.NumericVariable.+(ExMath.Algebra.NumericVariable, Object)
+  nameWithType: NumericVariable.operator +(NumericVariable, dynamic)
+  nameWithType.vb: NumericVariable.+(NumericVariable, Object)
+- uid: ExMath.Algebra.NumericVariable.op_Addition(System.Object,ExMath.Algebra.NumericVariable)
+  name: operator +(dynamic, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Addition_System_Object_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Addition(System.Object,ExMath.Algebra.NumericVariable)
+  name.vb: +(Object, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator +(dynamic, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.+(Object, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator +(dynamic, NumericVariable)
+  nameWithType.vb: NumericVariable.+(Object, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Addition*
+  name: operator +
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Addition_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: ExMath.Algebra.NumericVariable.operator +
+  fullName.vb: ExMath.Algebra.NumericVariable.+
+  nameWithType: NumericVariable.operator +
+  nameWithType.vb: NumericVariable.+
+- uid: ExMath.Algebra.NumericVariable.op_Division(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator /(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Division_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Division(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: /(NumericVariable, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator /(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable./(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator /(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable./(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Division(ExMath.Algebra.NumericVariable,System.Object)
+  name: operator /(NumericVariable, dynamic)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Division_ExMath_Algebra_NumericVariable_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Division(ExMath.Algebra.NumericVariable,System.Object)
+  name.vb: /(NumericVariable, Object)
+  fullName: ExMath.Algebra.NumericVariable.operator /(ExMath.Algebra.NumericVariable, dynamic)
+  fullName.vb: ExMath.Algebra.NumericVariable./(ExMath.Algebra.NumericVariable, Object)
+  nameWithType: NumericVariable.operator /(NumericVariable, dynamic)
+  nameWithType.vb: NumericVariable./(NumericVariable, Object)
+- uid: ExMath.Algebra.NumericVariable.op_Division(System.Object,ExMath.Algebra.NumericVariable)
+  name: operator /(dynamic, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Division_System_Object_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Division(System.Object,ExMath.Algebra.NumericVariable)
+  name.vb: /(Object, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator /(dynamic, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable./(Object, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator /(dynamic, NumericVariable)
+  nameWithType.vb: NumericVariable./(Object, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Division*
+  name: operator /
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Division_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: ExMath.Algebra.NumericVariable.operator /
+  fullName.vb: ExMath.Algebra.NumericVariable./
+  nameWithType: NumericVariable.operator /
+  nameWithType.vb: NumericVariable./
+- uid: ExMath.Algebra.NumericVariable.op_Equality(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator ==(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Equality_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Equality(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: =(NumericVariable, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator ==(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.=(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator ==(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable.=(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Equality*
+  name: operator ==
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Equality_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ExMath.Algebra.NumericVariable.operator ==
+  fullName.vb: ExMath.Algebra.NumericVariable.=
+  nameWithType: NumericVariable.operator ==
+  nameWithType.vb: NumericVariable.=
+- uid: ExMath.Algebra.NumericVariable.op_Implicit(ExMath.Algebra.Analysis.Token)~ExMath.Algebra.NumericVariable
+  name: implicit operator NumericVariable(Token)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Implicit_ExMath_Algebra_Analysis_Token__ExMath_Algebra_NumericVariable
+  commentId: M:ExMath.Algebra.NumericVariable.op_Implicit(ExMath.Algebra.Analysis.Token)~ExMath.Algebra.NumericVariable
+  name.vb: CType(Token)
+  fullName: ExMath.Algebra.NumericVariable.implicit operator ExMath.Algebra.NumericVariable(ExMath.Algebra.Analysis.Token)
+  fullName.vb: ExMath.Algebra.NumericVariable.CType(ExMath.Algebra.Analysis.Token)
+  nameWithType: NumericVariable.implicit operator NumericVariable(Token)
+  nameWithType.vb: NumericVariable.CType(Token)
+- uid: ExMath.Algebra.NumericVariable.op_Implicit(System.Char)~ExMath.Algebra.NumericVariable
+  name: implicit operator NumericVariable(char)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Implicit_System_Char__ExMath_Algebra_NumericVariable
+  commentId: M:ExMath.Algebra.NumericVariable.op_Implicit(System.Char)~ExMath.Algebra.NumericVariable
+  name.vb: CType(Char)
+  fullName: ExMath.Algebra.NumericVariable.implicit operator ExMath.Algebra.NumericVariable(char)
+  fullName.vb: ExMath.Algebra.NumericVariable.CType(Char)
+  nameWithType: NumericVariable.implicit operator NumericVariable(char)
+  nameWithType.vb: NumericVariable.CType(Char)
+- uid: ExMath.Algebra.NumericVariable.op_Implicit(System.String)~ExMath.Algebra.NumericVariable
+  name: implicit operator NumericVariable(string)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Implicit_System_String__ExMath_Algebra_NumericVariable
+  commentId: M:ExMath.Algebra.NumericVariable.op_Implicit(System.String)~ExMath.Algebra.NumericVariable
+  name.vb: CType(String)
+  fullName: ExMath.Algebra.NumericVariable.implicit operator ExMath.Algebra.NumericVariable(string)
+  fullName.vb: ExMath.Algebra.NumericVariable.CType(String)
+  nameWithType: NumericVariable.implicit operator NumericVariable(string)
+  nameWithType.vb: NumericVariable.CType(String)
+- uid: ExMath.Algebra.NumericVariable.op_Implicit*
+  name: implicit operator
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Implicit_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ExMath.Algebra.NumericVariable.implicit operator
+  fullName.vb: ExMath.Algebra.NumericVariable.CType
+  nameWithType: NumericVariable.implicit operator
+  nameWithType.vb: NumericVariable.CType
+- uid: ExMath.Algebra.NumericVariable.op_Inequality(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator !=(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Inequality_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Inequality(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: <>(NumericVariable, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator !=(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.<>(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator !=(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable.<>(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Inequality*
+  name: operator !=
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Inequality_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ExMath.Algebra.NumericVariable.operator !=
+  fullName.vb: ExMath.Algebra.NumericVariable.<>
+  nameWithType: NumericVariable.operator !=
+  nameWithType.vb: NumericVariable.<>
+- uid: ExMath.Algebra.NumericVariable.op_Multiply(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator *(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Multiply_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Multiply(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: '*(NumericVariable, NumericVariable)'
+  fullName: ExMath.Algebra.NumericVariable.operator *(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.*(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator *(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable.*(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Multiply(ExMath.Algebra.NumericVariable,System.Object)
+  name: operator *(NumericVariable, dynamic)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Multiply_ExMath_Algebra_NumericVariable_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Multiply(ExMath.Algebra.NumericVariable,System.Object)
+  name.vb: '*(NumericVariable, Object)'
+  fullName: ExMath.Algebra.NumericVariable.operator *(ExMath.Algebra.NumericVariable, dynamic)
+  fullName.vb: ExMath.Algebra.NumericVariable.*(ExMath.Algebra.NumericVariable, Object)
+  nameWithType: NumericVariable.operator *(NumericVariable, dynamic)
+  nameWithType.vb: NumericVariable.*(NumericVariable, Object)
+- uid: ExMath.Algebra.NumericVariable.op_Multiply(System.Object,ExMath.Algebra.NumericVariable)
+  name: operator *(dynamic, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Multiply_System_Object_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Multiply(System.Object,ExMath.Algebra.NumericVariable)
+  name.vb: '*(Object, NumericVariable)'
+  fullName: ExMath.Algebra.NumericVariable.operator *(dynamic, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.*(Object, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator *(dynamic, NumericVariable)
+  nameWithType.vb: NumericVariable.*(Object, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Multiply*
+  name: operator *
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Multiply_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: ExMath.Algebra.NumericVariable.operator *
+  fullName.vb: ExMath.Algebra.NumericVariable.*
+  nameWithType: NumericVariable.operator *
+  nameWithType.vb: NumericVariable.*
+- uid: ExMath.Algebra.NumericVariable.op_Subtraction(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name: operator -(NumericVariable, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Subtraction_ExMath_Algebra_NumericVariable_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Subtraction(ExMath.Algebra.NumericVariable,ExMath.Algebra.NumericVariable)
+  name.vb: -(NumericVariable, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator -(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.-(ExMath.Algebra.NumericVariable, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator -(NumericVariable, NumericVariable)
+  nameWithType.vb: NumericVariable.-(NumericVariable, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Subtraction(ExMath.Algebra.NumericVariable,System.Object)
+  name: operator -(NumericVariable, dynamic)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Subtraction_ExMath_Algebra_NumericVariable_System_Object_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Subtraction(ExMath.Algebra.NumericVariable,System.Object)
+  name.vb: -(NumericVariable, Object)
+  fullName: ExMath.Algebra.NumericVariable.operator -(ExMath.Algebra.NumericVariable, dynamic)
+  fullName.vb: ExMath.Algebra.NumericVariable.-(ExMath.Algebra.NumericVariable, Object)
+  nameWithType: NumericVariable.operator -(NumericVariable, dynamic)
+  nameWithType.vb: NumericVariable.-(NumericVariable, Object)
+- uid: ExMath.Algebra.NumericVariable.op_Subtraction(System.Object,ExMath.Algebra.NumericVariable)
+  name: operator -(dynamic, NumericVariable)
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Subtraction_System_Object_ExMath_Algebra_NumericVariable_
+  commentId: M:ExMath.Algebra.NumericVariable.op_Subtraction(System.Object,ExMath.Algebra.NumericVariable)
+  name.vb: -(Object, NumericVariable)
+  fullName: ExMath.Algebra.NumericVariable.operator -(dynamic, ExMath.Algebra.NumericVariable)
+  fullName.vb: ExMath.Algebra.NumericVariable.-(Object, ExMath.Algebra.NumericVariable)
+  nameWithType: NumericVariable.operator -(dynamic, NumericVariable)
+  nameWithType.vb: NumericVariable.-(Object, NumericVariable)
+- uid: ExMath.Algebra.NumericVariable.op_Subtraction*
+  name: operator -
+  href: api/ExMath.Algebra.NumericVariable.html#ExMath_Algebra_NumericVariable_op_Subtraction_
+  commentId: Overload:ExMath.Algebra.NumericVariable.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: ExMath.Algebra.NumericVariable.operator -
+  fullName.vb: ExMath.Algebra.NumericVariable.-
+  nameWithType: NumericVariable.operator -
+  nameWithType.vb: NumericVariable.-
+- uid: ExMath.Calculus
+  name: ExMath.Calculus
+  href: api/ExMath.Calculus.html
+  commentId: N:ExMath.Calculus
+  fullName: ExMath.Calculus
+  nameWithType: ExMath.Calculus
+- uid: ExMath.Calculus.Function
+  name: Function
+  href: api/ExMath.Calculus.Function.html
+  commentId: T:ExMath.Calculus.Function
+  fullName: ExMath.Calculus.Function
+  nameWithType: Function
+- uid: ExMath.Calculus.Function.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object},System.Object[])
+  name: Evaluate(Dictionary<NumericVariable, dynamic>?, params dynamic[])
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_Evaluate_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__System_Object___
+  commentId: M:ExMath.Calculus.Function.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object},System.Object[])
+  name.vb: Evaluate(Dictionary(Of NumericVariable, Object), ParamArray Object())
+  fullName: ExMath.Calculus.Function.Evaluate(System.Collections.Generic.Dictionary<ExMath.Algebra.NumericVariable, dynamic>?, params dynamic[])
+  fullName.vb: ExMath.Calculus.Function.Evaluate(System.Collections.Generic.Dictionary(Of ExMath.Algebra.NumericVariable, Object), ParamArray Object())
+  nameWithType: Function.Evaluate(Dictionary<NumericVariable, dynamic>?, params dynamic[])
+  nameWithType.vb: Function.Evaluate(Dictionary(Of NumericVariable, Object), ParamArray Object())
+- uid: ExMath.Calculus.Function.Evaluate(System.Object[])
+  name: Evaluate(params dynamic[])
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_Evaluate_System_Object___
+  commentId: M:ExMath.Calculus.Function.Evaluate(System.Object[])
+  name.vb: Evaluate(ParamArray Object())
+  fullName: ExMath.Calculus.Function.Evaluate(params dynamic[])
+  fullName.vb: ExMath.Calculus.Function.Evaluate(ParamArray Object())
+  nameWithType: Function.Evaluate(params dynamic[])
+  nameWithType.vb: Function.Evaluate(ParamArray Object())
+- uid: ExMath.Calculus.Function.Evaluate*
+  name: Evaluate
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_Evaluate_
+  commentId: Overload:ExMath.Calculus.Function.Evaluate
+  isSpec: "True"
+  fullName: ExMath.Calculus.Function.Evaluate
+  nameWithType: Function.Evaluate
+- uid: ExMath.Calculus.Function.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Function.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Function.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Function.EvaluateFunction(ParamArray Object())
+  nameWithType: Function.EvaluateFunction(params dynamic[])
+  nameWithType.vb: Function.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Function.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Function.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Function.EvaluateFunction
+  nameWithType: Function.EvaluateFunction
+- uid: ExMath.Calculus.Function.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_GetInverse
+  commentId: M:ExMath.Calculus.Function.GetInverse
+  fullName: ExMath.Calculus.Function.GetInverse()
+  nameWithType: Function.GetInverse()
+- uid: ExMath.Calculus.Function.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_GetInverse_
+  commentId: Overload:ExMath.Calculus.Function.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Function.GetInverse
+  nameWithType: Function.GetInverse
+- uid: ExMath.Calculus.Function.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_Operands
+  commentId: P:ExMath.Calculus.Function.Operands
+  fullName: ExMath.Calculus.Function.Operands
+  nameWithType: Function.Operands
+- uid: ExMath.Calculus.Function.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Function.html#ExMath_Calculus_Function_Operands_
+  commentId: Overload:ExMath.Calculus.Function.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Function.Operands
+  nameWithType: Function.Operands
+- uid: ExMath.Calculus.Functions
+  name: ExMath.Calculus.Functions
+  href: api/ExMath.Calculus.Functions.html
+  commentId: N:ExMath.Calculus.Functions
+  fullName: ExMath.Calculus.Functions
+  nameWithType: ExMath.Calculus.Functions
+- uid: ExMath.Calculus.Functions.AddOperator
+  name: AddOperator
+  href: api/ExMath.Calculus.Functions.AddOperator.html
+  commentId: T:ExMath.Calculus.Functions.AddOperator
+  fullName: ExMath.Calculus.Functions.AddOperator
+  nameWithType: AddOperator
+- uid: ExMath.Calculus.Functions.AddOperator.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Functions.AddOperator.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Functions.AddOperator.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Functions.AddOperator.EvaluateFunction(ParamArray Object())
+  nameWithType: AddOperator.EvaluateFunction(params dynamic[])
+  nameWithType.vb: AddOperator.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Functions.AddOperator.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Functions.AddOperator.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.AddOperator.EvaluateFunction
+  nameWithType: AddOperator.EvaluateFunction
+- uid: ExMath.Calculus.Functions.AddOperator.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_GetInverse
+  commentId: M:ExMath.Calculus.Functions.AddOperator.GetInverse
+  fullName: ExMath.Calculus.Functions.AddOperator.GetInverse()
+  nameWithType: AddOperator.GetInverse()
+- uid: ExMath.Calculus.Functions.AddOperator.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_GetInverse_
+  commentId: Overload:ExMath.Calculus.Functions.AddOperator.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.AddOperator.GetInverse
+  nameWithType: AddOperator.GetInverse
+- uid: ExMath.Calculus.Functions.AddOperator.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_Operands
+  commentId: P:ExMath.Calculus.Functions.AddOperator.Operands
+  fullName: ExMath.Calculus.Functions.AddOperator.Operands
+  nameWithType: AddOperator.Operands
+- uid: ExMath.Calculus.Functions.AddOperator.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Functions.AddOperator.html#ExMath_Calculus_Functions_AddOperator_Operands_
+  commentId: Overload:ExMath.Calculus.Functions.AddOperator.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.AddOperator.Operands
+  nameWithType: AddOperator.Operands
+- uid: ExMath.Calculus.Functions.DivideOperator
+  name: DivideOperator
+  href: api/ExMath.Calculus.Functions.DivideOperator.html
+  commentId: T:ExMath.Calculus.Functions.DivideOperator
+  fullName: ExMath.Calculus.Functions.DivideOperator
+  nameWithType: DivideOperator
+- uid: ExMath.Calculus.Functions.DivideOperator.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Functions.DivideOperator.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Functions.DivideOperator.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Functions.DivideOperator.EvaluateFunction(ParamArray Object())
+  nameWithType: DivideOperator.EvaluateFunction(params dynamic[])
+  nameWithType.vb: DivideOperator.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Functions.DivideOperator.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Functions.DivideOperator.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.DivideOperator.EvaluateFunction
+  nameWithType: DivideOperator.EvaluateFunction
+- uid: ExMath.Calculus.Functions.DivideOperator.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_GetInverse
+  commentId: M:ExMath.Calculus.Functions.DivideOperator.GetInverse
+  fullName: ExMath.Calculus.Functions.DivideOperator.GetInverse()
+  nameWithType: DivideOperator.GetInverse()
+- uid: ExMath.Calculus.Functions.DivideOperator.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_GetInverse_
+  commentId: Overload:ExMath.Calculus.Functions.DivideOperator.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.DivideOperator.GetInverse
+  nameWithType: DivideOperator.GetInverse
+- uid: ExMath.Calculus.Functions.DivideOperator.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_Operands
+  commentId: P:ExMath.Calculus.Functions.DivideOperator.Operands
+  fullName: ExMath.Calculus.Functions.DivideOperator.Operands
+  nameWithType: DivideOperator.Operands
+- uid: ExMath.Calculus.Functions.DivideOperator.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Functions.DivideOperator.html#ExMath_Calculus_Functions_DivideOperator_Operands_
+  commentId: Overload:ExMath.Calculus.Functions.DivideOperator.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.DivideOperator.Operands
+  nameWithType: DivideOperator.Operands
+- uid: ExMath.Calculus.Functions.MultiplyOperator
+  name: MultiplyOperator
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html
+  commentId: T:ExMath.Calculus.Functions.MultiplyOperator
+  fullName: ExMath.Calculus.Functions.MultiplyOperator
+  nameWithType: MultiplyOperator
+- uid: ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction(ParamArray Object())
+  nameWithType: MultiplyOperator.EvaluateFunction(params dynamic[])
+  nameWithType.vb: MultiplyOperator.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.EvaluateFunction
+  nameWithType: MultiplyOperator.EvaluateFunction
+- uid: ExMath.Calculus.Functions.MultiplyOperator.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_GetInverse
+  commentId: M:ExMath.Calculus.Functions.MultiplyOperator.GetInverse
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.GetInverse()
+  nameWithType: MultiplyOperator.GetInverse()
+- uid: ExMath.Calculus.Functions.MultiplyOperator.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_GetInverse_
+  commentId: Overload:ExMath.Calculus.Functions.MultiplyOperator.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.GetInverse
+  nameWithType: MultiplyOperator.GetInverse
+- uid: ExMath.Calculus.Functions.MultiplyOperator.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_Operands
+  commentId: P:ExMath.Calculus.Functions.MultiplyOperator.Operands
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.Operands
+  nameWithType: MultiplyOperator.Operands
+- uid: ExMath.Calculus.Functions.MultiplyOperator.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Functions.MultiplyOperator.html#ExMath_Calculus_Functions_MultiplyOperator_Operands_
+  commentId: Overload:ExMath.Calculus.Functions.MultiplyOperator.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.MultiplyOperator.Operands
+  nameWithType: MultiplyOperator.Operands
+- uid: ExMath.Calculus.Functions.SubtractOperator
+  name: SubtractOperator
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html
+  commentId: T:ExMath.Calculus.Functions.SubtractOperator
+  fullName: ExMath.Calculus.Functions.SubtractOperator
+  nameWithType: SubtractOperator
+- uid: ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction(ParamArray Object())
+  nameWithType: SubtractOperator.EvaluateFunction(params dynamic[])
+  nameWithType.vb: SubtractOperator.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.SubtractOperator.EvaluateFunction
+  nameWithType: SubtractOperator.EvaluateFunction
+- uid: ExMath.Calculus.Functions.SubtractOperator.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_GetInverse
+  commentId: M:ExMath.Calculus.Functions.SubtractOperator.GetInverse
+  fullName: ExMath.Calculus.Functions.SubtractOperator.GetInverse()
+  nameWithType: SubtractOperator.GetInverse()
+- uid: ExMath.Calculus.Functions.SubtractOperator.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_GetInverse_
+  commentId: Overload:ExMath.Calculus.Functions.SubtractOperator.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.SubtractOperator.GetInverse
+  nameWithType: SubtractOperator.GetInverse
+- uid: ExMath.Calculus.Functions.SubtractOperator.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_Operands
+  commentId: P:ExMath.Calculus.Functions.SubtractOperator.Operands
+  fullName: ExMath.Calculus.Functions.SubtractOperator.Operands
+  nameWithType: SubtractOperator.Operands
+- uid: ExMath.Calculus.Functions.SubtractOperator.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Functions.SubtractOperator.html#ExMath_Calculus_Functions_SubtractOperator_Operands_
+  commentId: Overload:ExMath.Calculus.Functions.SubtractOperator.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Functions.SubtractOperator.Operands
+  nameWithType: SubtractOperator.Operands
+- uid: ExMath.Calculus.IFunction
+  name: IFunction
+  href: api/ExMath.Calculus.IFunction.html
+  commentId: T:ExMath.Calculus.IFunction
+  fullName: ExMath.Calculus.IFunction
+  nameWithType: IFunction
+- uid: ExMath.Calculus.IFunction.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object},System.Object[])
+  name: Evaluate(Dictionary<NumericVariable, dynamic>?, params dynamic[])
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_Evaluate_System_Collections_Generic_Dictionary_ExMath_Algebra_NumericVariable_System_Object__System_Object___
+  commentId: M:ExMath.Calculus.IFunction.Evaluate(System.Collections.Generic.Dictionary{ExMath.Algebra.NumericVariable,System.Object},System.Object[])
+  name.vb: Evaluate(Dictionary(Of NumericVariable, Object), ParamArray Object())
+  fullName: ExMath.Calculus.IFunction.Evaluate(System.Collections.Generic.Dictionary<ExMath.Algebra.NumericVariable, dynamic>?, params dynamic[])
+  fullName.vb: ExMath.Calculus.IFunction.Evaluate(System.Collections.Generic.Dictionary(Of ExMath.Algebra.NumericVariable, Object), ParamArray Object())
+  nameWithType: IFunction.Evaluate(Dictionary<NumericVariable, dynamic>?, params dynamic[])
+  nameWithType.vb: IFunction.Evaluate(Dictionary(Of NumericVariable, Object), ParamArray Object())
+- uid: ExMath.Calculus.IFunction.Evaluate(System.Object[])
+  name: Evaluate(params dynamic[])
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_Evaluate_System_Object___
+  commentId: M:ExMath.Calculus.IFunction.Evaluate(System.Object[])
+  name.vb: Evaluate(ParamArray Object())
+  fullName: ExMath.Calculus.IFunction.Evaluate(params dynamic[])
+  fullName.vb: ExMath.Calculus.IFunction.Evaluate(ParamArray Object())
+  nameWithType: IFunction.Evaluate(params dynamic[])
+  nameWithType.vb: IFunction.Evaluate(ParamArray Object())
+- uid: ExMath.Calculus.IFunction.Evaluate*
+  name: Evaluate
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_Evaluate_
+  commentId: Overload:ExMath.Calculus.IFunction.Evaluate
+  isSpec: "True"
+  fullName: ExMath.Calculus.IFunction.Evaluate
+  nameWithType: IFunction.Evaluate
+- uid: ExMath.Calculus.IFunction.InverseFunction
+  name: InverseFunction
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_InverseFunction
+  commentId: P:ExMath.Calculus.IFunction.InverseFunction
+  fullName: ExMath.Calculus.IFunction.InverseFunction
+  nameWithType: IFunction.InverseFunction
+- uid: ExMath.Calculus.IFunction.InverseFunction*
+  name: InverseFunction
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_InverseFunction_
+  commentId: Overload:ExMath.Calculus.IFunction.InverseFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.IFunction.InverseFunction
+  nameWithType: IFunction.InverseFunction
+- uid: ExMath.Calculus.IFunction.Operands
+  name: Operands
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_Operands
+  commentId: P:ExMath.Calculus.IFunction.Operands
+  fullName: ExMath.Calculus.IFunction.Operands
+  nameWithType: IFunction.Operands
+- uid: ExMath.Calculus.IFunction.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.IFunction.html#ExMath_Calculus_IFunction_Operands_
+  commentId: Overload:ExMath.Calculus.IFunction.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.IFunction.Operands
+  nameWithType: IFunction.Operands
+- uid: ExMath.Calculus.Operators
+  name: ExMath.Calculus.Operators
+  href: api/ExMath.Calculus.Operators.html
+  commentId: N:ExMath.Calculus.Operators
+  fullName: ExMath.Calculus.Operators
+  nameWithType: ExMath.Calculus.Operators
+- uid: ExMath.Calculus.Operators.PowerOperator
+  name: PowerOperator
+  href: api/ExMath.Calculus.Operators.PowerOperator.html
+  commentId: T:ExMath.Calculus.Operators.PowerOperator
+  fullName: ExMath.Calculus.Operators.PowerOperator
+  nameWithType: PowerOperator
+- uid: ExMath.Calculus.Operators.PowerOperator.EvaluateFunction(System.Object[])
+  name: EvaluateFunction(params dynamic[])
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_EvaluateFunction_System_Object___
+  commentId: M:ExMath.Calculus.Operators.PowerOperator.EvaluateFunction(System.Object[])
+  name.vb: EvaluateFunction(ParamArray Object())
+  fullName: ExMath.Calculus.Operators.PowerOperator.EvaluateFunction(params dynamic[])
+  fullName.vb: ExMath.Calculus.Operators.PowerOperator.EvaluateFunction(ParamArray Object())
+  nameWithType: PowerOperator.EvaluateFunction(params dynamic[])
+  nameWithType.vb: PowerOperator.EvaluateFunction(ParamArray Object())
+- uid: ExMath.Calculus.Operators.PowerOperator.EvaluateFunction*
+  name: EvaluateFunction
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_EvaluateFunction_
+  commentId: Overload:ExMath.Calculus.Operators.PowerOperator.EvaluateFunction
+  isSpec: "True"
+  fullName: ExMath.Calculus.Operators.PowerOperator.EvaluateFunction
+  nameWithType: PowerOperator.EvaluateFunction
+- uid: ExMath.Calculus.Operators.PowerOperator.GetInverse
+  name: GetInverse()
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_GetInverse
+  commentId: M:ExMath.Calculus.Operators.PowerOperator.GetInverse
+  fullName: ExMath.Calculus.Operators.PowerOperator.GetInverse()
+  nameWithType: PowerOperator.GetInverse()
+- uid: ExMath.Calculus.Operators.PowerOperator.GetInverse*
+  name: GetInverse
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_GetInverse_
+  commentId: Overload:ExMath.Calculus.Operators.PowerOperator.GetInverse
+  isSpec: "True"
+  fullName: ExMath.Calculus.Operators.PowerOperator.GetInverse
+  nameWithType: PowerOperator.GetInverse
+- uid: ExMath.Calculus.Operators.PowerOperator.Operands
+  name: Operands
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_Operands
+  commentId: P:ExMath.Calculus.Operators.PowerOperator.Operands
+  fullName: ExMath.Calculus.Operators.PowerOperator.Operands
+  nameWithType: PowerOperator.Operands
+- uid: ExMath.Calculus.Operators.PowerOperator.Operands*
+  name: Operands
+  href: api/ExMath.Calculus.Operators.PowerOperator.html#ExMath_Calculus_Operators_PowerOperator_Operands_
+  commentId: Overload:ExMath.Calculus.Operators.PowerOperator.Operands
+  isSpec: "True"
+  fullName: ExMath.Calculus.Operators.PowerOperator.Operands
+  nameWithType: PowerOperator.Operands
 - uid: ExMath.Discrete.Graphs
   name: ExMath.Discrete.Graphs
   href: api/ExMath.Discrete.Graphs.html
@@ -250,6 +1356,19 @@ references:
   fullName.vb: ExMath.Discrete.Graphs.Node.New
   nameWithType: Node.Node
   nameWithType.vb: Node.New
+- uid: ExMath.Discrete.Graphs.Node.Data
+  name: Data
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Data
+  commentId: P:ExMath.Discrete.Graphs.Node.Data
+  fullName: ExMath.Discrete.Graphs.Node.Data
+  nameWithType: Node.Data
+- uid: ExMath.Discrete.Graphs.Node.Data*
+  name: Data
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Data_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.Data
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.Data
+  nameWithType: Node.Data
 - uid: ExMath.Discrete.Graphs.Node.Equals(ExMath.Discrete.Graphs.Node)
   name: Equals(Node?)
   href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_Equals_ExMath_Discrete_Graphs_Node_
@@ -301,6 +1420,19 @@ references:
   isSpec: "True"
   fullName: ExMath.Discrete.Graphs.Node.Name
   nameWithType: Node.Name
+- uid: ExMath.Discrete.Graphs.Node.ToString
+  name: ToString()
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_ToString
+  commentId: M:ExMath.Discrete.Graphs.Node.ToString
+  fullName: ExMath.Discrete.Graphs.Node.ToString()
+  nameWithType: Node.ToString()
+- uid: ExMath.Discrete.Graphs.Node.ToString*
+  name: ToString
+  href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_ToString_
+  commentId: Overload:ExMath.Discrete.Graphs.Node.ToString
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Node.ToString
+  nameWithType: Node.ToString
 - uid: ExMath.Discrete.Graphs.Node.UID
   name: UID
   href: api/ExMath.Discrete.Graphs.Node.html#ExMath_Discrete_Graphs_Node_UID
@@ -420,6 +1552,23 @@ references:
   fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Node2
   nameWithType: Relationship<T>.Node2
   nameWithType.vb: Relationship(Of T).Node2
+- uid: ExMath.Discrete.Graphs.Relationship`1.ToString
+  name: ToString()
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_ToString
+  commentId: M:ExMath.Discrete.Graphs.Relationship`1.ToString
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.ToString()
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).ToString()
+  nameWithType: Relationship<T>.ToString()
+  nameWithType.vb: Relationship(Of T).ToString()
+- uid: ExMath.Discrete.Graphs.Relationship`1.ToString*
+  name: ToString
+  href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_ToString_
+  commentId: Overload:ExMath.Discrete.Graphs.Relationship`1.ToString
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Relationship<T>.ToString
+  fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).ToString
+  nameWithType: Relationship<T>.ToString
+  nameWithType.vb: Relationship(Of T).ToString
 - uid: ExMath.Discrete.Graphs.Relationship`1.Value
   name: Value
   href: api/ExMath.Discrete.Graphs.Relationship-1.html#ExMath_Discrete_Graphs_Relationship_1_Value
@@ -437,6 +1586,94 @@ references:
   fullName.vb: ExMath.Discrete.Graphs.Relationship(Of T).Value
   nameWithType: Relationship<T>.Value
   nameWithType.vb: Relationship(Of T).Value
+- uid: ExMath.Discrete.Graphs.Tree`1
+  name: Tree<T>
+  href: api/ExMath.Discrete.Graphs.Tree-1.html
+  commentId: T:ExMath.Discrete.Graphs.Tree`1
+  name.vb: Tree(Of T)
+  fullName: ExMath.Discrete.Graphs.Tree<T>
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T)
+  nameWithType: Tree<T>
+  nameWithType.vb: Tree(Of T)
+- uid: ExMath.Discrete.Graphs.Tree`1.#ctor(`0,ExMath.Discrete.Graphs.Tree{`0}[])
+  name: Tree(T, params Tree<T>[]?)
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1__ctor__0_ExMath_Discrete_Graphs_Tree__0____
+  commentId: M:ExMath.Discrete.Graphs.Tree`1.#ctor(`0,ExMath.Discrete.Graphs.Tree{`0}[])
+  name.vb: New(T, ParamArray Tree(Of T)())
+  fullName: ExMath.Discrete.Graphs.Tree<T>.Tree(T, params ExMath.Discrete.Graphs.Tree<T>[]?)
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).New(T, ParamArray ExMath.Discrete.Graphs.Tree(Of T)())
+  nameWithType: Tree<T>.Tree(T, params Tree<T>[]?)
+  nameWithType.vb: Tree(Of T).New(T, ParamArray Tree(Of T)())
+- uid: ExMath.Discrete.Graphs.Tree`1.#ctor*
+  name: Tree
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1__ctor_
+  commentId: Overload:ExMath.Discrete.Graphs.Tree`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Discrete.Graphs.Tree<T>.Tree
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).New
+  nameWithType: Tree<T>.Tree
+  nameWithType.vb: Tree(Of T).New
+- uid: ExMath.Discrete.Graphs.Tree`1.Data
+  name: Data
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_Data
+  commentId: P:ExMath.Discrete.Graphs.Tree`1.Data
+  fullName: ExMath.Discrete.Graphs.Tree<T>.Data
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).Data
+  nameWithType: Tree<T>.Data
+  nameWithType.vb: Tree(Of T).Data
+- uid: ExMath.Discrete.Graphs.Tree`1.Data*
+  name: Data
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_Data_
+  commentId: Overload:ExMath.Discrete.Graphs.Tree`1.Data
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Tree<T>.Data
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).Data
+  nameWithType: Tree<T>.Data
+  nameWithType.vb: Tree(Of T).Data
+- uid: ExMath.Discrete.Graphs.Tree`1.FindParent(ExMath.Discrete.Graphs.Tree{`0},System.Func{`0,System.Boolean},ExMath.Discrete.Graphs.Tree{`0})
+  name: FindParent(Tree<T>, Func<T, bool>, Tree<T>?)
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_FindParent_ExMath_Discrete_Graphs_Tree__0__System_Func__0_System_Boolean__ExMath_Discrete_Graphs_Tree__0__
+  commentId: M:ExMath.Discrete.Graphs.Tree`1.FindParent(ExMath.Discrete.Graphs.Tree{`0},System.Func{`0,System.Boolean},ExMath.Discrete.Graphs.Tree{`0})
+  name.vb: FindParent(Tree(Of T), Func(Of T, Boolean), Tree(Of T))
+  fullName: ExMath.Discrete.Graphs.Tree<T>.FindParent(ExMath.Discrete.Graphs.Tree<T>, System.Func<T, bool>, ExMath.Discrete.Graphs.Tree<T>?)
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).FindParent(ExMath.Discrete.Graphs.Tree(Of T), System.Func(Of T, Boolean), ExMath.Discrete.Graphs.Tree(Of T))
+  nameWithType: Tree<T>.FindParent(Tree<T>, Func<T, bool>, Tree<T>?)
+  nameWithType.vb: Tree(Of T).FindParent(Tree(Of T), Func(Of T, Boolean), Tree(Of T))
+- uid: ExMath.Discrete.Graphs.Tree`1.FindParent*
+  name: FindParent
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_FindParent_
+  commentId: Overload:ExMath.Discrete.Graphs.Tree`1.FindParent
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Tree<T>.FindParent
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).FindParent
+  nameWithType: Tree<T>.FindParent
+  nameWithType.vb: Tree(Of T).FindParent
+- uid: ExMath.Discrete.Graphs.Tree`1.Nodes
+  name: Nodes
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_Nodes
+  commentId: F:ExMath.Discrete.Graphs.Tree`1.Nodes
+  fullName: ExMath.Discrete.Graphs.Tree<T>.Nodes
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).Nodes
+  nameWithType: Tree<T>.Nodes
+  nameWithType.vb: Tree(Of T).Nodes
+- uid: ExMath.Discrete.Graphs.Tree`1.ToString
+  name: ToString()
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_ToString
+  commentId: M:ExMath.Discrete.Graphs.Tree`1.ToString
+  fullName: ExMath.Discrete.Graphs.Tree<T>.ToString()
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).ToString()
+  nameWithType: Tree<T>.ToString()
+  nameWithType.vb: Tree(Of T).ToString()
+- uid: ExMath.Discrete.Graphs.Tree`1.ToString*
+  name: ToString
+  href: api/ExMath.Discrete.Graphs.Tree-1.html#ExMath_Discrete_Graphs_Tree_1_ToString_
+  commentId: Overload:ExMath.Discrete.Graphs.Tree`1.ToString
+  isSpec: "True"
+  fullName: ExMath.Discrete.Graphs.Tree<T>.ToString
+  fullName.vb: ExMath.Discrete.Graphs.Tree(Of T).ToString
+  nameWithType: Tree<T>.ToString
+  nameWithType.vb: Tree(Of T).ToString
 - uid: ExMath.Discrete.Graphs.UndirectedGraph`1
   name: UndirectedGraph<T>
   href: api/ExMath.Discrete.Graphs.UndirectedGraph-1.html
@@ -578,6 +1815,58 @@ references:
   fullName.vb: ExMath.Exceptions.InvalidNumericTypeException.New
   nameWithType: InvalidNumericTypeException.InvalidNumericTypeException
   nameWithType.vb: InvalidNumericTypeException.New
+- uid: ExMath.Exceptions.UnknownNumericVariableException
+  name: UnknownNumericVariableException
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html
+  commentId: T:ExMath.Exceptions.UnknownNumericVariableException
+  fullName: ExMath.Exceptions.UnknownNumericVariableException
+  nameWithType: UnknownNumericVariableException
+- uid: ExMath.Exceptions.UnknownNumericVariableException.#ctor
+  name: UnknownNumericVariableException()
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html#ExMath_Exceptions_UnknownNumericVariableException__ctor
+  commentId: M:ExMath.Exceptions.UnknownNumericVariableException.#ctor
+  name.vb: New()
+  fullName: ExMath.Exceptions.UnknownNumericVariableException.UnknownNumericVariableException()
+  fullName.vb: ExMath.Exceptions.UnknownNumericVariableException.New()
+  nameWithType: UnknownNumericVariableException.UnknownNumericVariableException()
+  nameWithType.vb: UnknownNumericVariableException.New()
+- uid: ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: UnknownNumericVariableException(SerializationInfo, StreamingContext)
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html#ExMath_Exceptions_UnknownNumericVariableException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: ExMath.Exceptions.UnknownNumericVariableException.UnknownNumericVariableException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: ExMath.Exceptions.UnknownNumericVariableException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: UnknownNumericVariableException.UnknownNumericVariableException(SerializationInfo, StreamingContext)
+  nameWithType.vb: UnknownNumericVariableException.New(SerializationInfo, StreamingContext)
+- uid: ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.String)
+  name: UnknownNumericVariableException(string)
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html#ExMath_Exceptions_UnknownNumericVariableException__ctor_System_String_
+  commentId: M:ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ExMath.Exceptions.UnknownNumericVariableException.UnknownNumericVariableException(string)
+  fullName.vb: ExMath.Exceptions.UnknownNumericVariableException.New(String)
+  nameWithType: UnknownNumericVariableException.UnknownNumericVariableException(string)
+  nameWithType.vb: UnknownNumericVariableException.New(String)
+- uid: ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.String,System.Exception)
+  name: UnknownNumericVariableException(string, Exception)
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html#ExMath_Exceptions_UnknownNumericVariableException__ctor_System_String_System_Exception_
+  commentId: M:ExMath.Exceptions.UnknownNumericVariableException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ExMath.Exceptions.UnknownNumericVariableException.UnknownNumericVariableException(string, System.Exception)
+  fullName.vb: ExMath.Exceptions.UnknownNumericVariableException.New(String, System.Exception)
+  nameWithType: UnknownNumericVariableException.UnknownNumericVariableException(string, Exception)
+  nameWithType.vb: UnknownNumericVariableException.New(String, Exception)
+- uid: ExMath.Exceptions.UnknownNumericVariableException.#ctor*
+  name: UnknownNumericVariableException
+  href: api/ExMath.Exceptions.UnknownNumericVariableException.html#ExMath_Exceptions_UnknownNumericVariableException__ctor_
+  commentId: Overload:ExMath.Exceptions.UnknownNumericVariableException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.Exceptions.UnknownNumericVariableException.UnknownNumericVariableException
+  fullName.vb: ExMath.Exceptions.UnknownNumericVariableException.New
+  nameWithType: UnknownNumericVariableException.UnknownNumericVariableException
+  nameWithType.vb: UnknownNumericVariableException.New
 - uid: ExMath.Extensions
   name: ExMath.Extensions
   href: api/ExMath.Extensions.html
