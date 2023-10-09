@@ -44,6 +44,11 @@ namespace ExMath.Discrete.Graphs
             return false;
         }
 
+        public override string ToString()
+        {
+            return Node1.Name + " -> " + Node2.Name;
+        }
+
         public override bool Equals(object? obj)
             => Equals(obj as Relationship<T>);
 

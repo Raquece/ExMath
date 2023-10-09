@@ -12,17 +12,22 @@ namespace ExMath.Discrete.Graphs
     public class Node : IEquatable<Node>
     {
         public Node(int uid, string? name = null)
-            => (UID, Name) = (uid, name);
+            => (UID, Data) = (uid, name);
 
         /// <summary>
         /// The name of the node
         /// </summary>
-        public string? Name { get; set; }
+        public string Name => Data == null ? UID.ToString() : Data.ToString();
 
         /// <summary>
         /// The ID of the node as it appears in the graph
         /// </summary>
         public int UID { get; set; }
+
+        /// <summary>
+        /// Contains user defined underlying data (if desired)
+        /// </summary>
+        public object? Data { get; set; }
 
         public bool Equals(Node? other)
         {
@@ -36,6 +41,11 @@ namespace ExMath.Discrete.Graphs
             {
                 return Name.Equals(other.Name) && UID.Equals(other.UID);
             }
+        }
+
+        public override string ToString()
+        {
+            return Name;
         }
 
         public override bool Equals(object? obj)
