@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -20,16 +20,11 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
-    - name: cuda-toolkit
-      uses: Jimver/cuda-toolkit@v0.2.11
+
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@v1.1
-    
-    - name: Build app
-      run: msbuild -t:rebuild -verbosity:diag
-
+    - name: Build
+      run: dotnet build --no-restore -c CI
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal -c CI
