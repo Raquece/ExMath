@@ -84,6 +84,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Matrix.CudaMatrix-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Matrix.CudaMatrix-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Matrix.CudaMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Matrix.CudaMatrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Memory.UnmanagedArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Memory.UnmanagedArray-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Memory.UnmanagedObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Memory.UnmanagedObject-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ExMath.CUDA.Memory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ExMath.CUDA.Memory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ExMath.Calculus.Function.yml",
       "output": {
         ".html": {

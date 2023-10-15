@@ -725,6 +725,254 @@ references:
   fullName.vb: ExMath.Algebra.NumericVariable.-
   nameWithType: NumericVariable.operator -
   nameWithType.vb: NumericVariable.-
+- uid: ExMath.CUDA.Matrix
+  name: ExMath.CUDA.Matrix
+  href: api/ExMath.CUDA.Matrix.html
+  commentId: N:ExMath.CUDA.Matrix
+  fullName: ExMath.CUDA.Matrix
+  nameWithType: ExMath.CUDA.Matrix
+- uid: ExMath.CUDA.Matrix.CudaMatrix
+  name: CudaMatrix
+  href: api/ExMath.CUDA.Matrix.CudaMatrix.html
+  commentId: T:ExMath.CUDA.Matrix.CudaMatrix
+  fullName: ExMath.CUDA.Matrix.CudaMatrix
+  nameWithType: CudaMatrix
+- uid: ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix*
+  name: ToCudaMatrix
+  href: api/ExMath.CUDA.Matrix.CudaMatrix.html#ExMath_CUDA_Matrix_CudaMatrix_ToCudaMatrix_
+  commentId: Overload:ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix
+  isSpec: "True"
+  fullName: ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix
+  nameWithType: CudaMatrix.ToCudaMatrix
+- uid: ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix``1(ExMath.Matrix.Matrix{``0})
+  name: ToCudaMatrix<T>(Matrix<T>)
+  href: api/ExMath.CUDA.Matrix.CudaMatrix.html#ExMath_CUDA_Matrix_CudaMatrix_ToCudaMatrix__1_ExMath_Matrix_Matrix___0__
+  commentId: M:ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix``1(ExMath.Matrix.Matrix{``0})
+  name.vb: ToCudaMatrix(Of T)(Matrix(Of T))
+  fullName: ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix<T>(ExMath.Matrix.Matrix<T>)
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix.ToCudaMatrix(Of T)(ExMath.Matrix.Matrix(Of T))
+  nameWithType: CudaMatrix.ToCudaMatrix<T>(Matrix<T>)
+  nameWithType.vb: CudaMatrix.ToCudaMatrix(Of T)(Matrix(Of T))
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1
+  name: CudaMatrix<T>
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html
+  commentId: T:ExMath.CUDA.Matrix.CudaMatrix`1
+  name.vb: CudaMatrix(Of T)
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T)
+  nameWithType: CudaMatrix<T>
+  nameWithType.vb: CudaMatrix(Of T)
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1.#ctor(System.Int32,System.Int32,`0)
+  name: CudaMatrix(int, int, T)
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html#ExMath_CUDA_Matrix_CudaMatrix_1__ctor_System_Int32_System_Int32__0_
+  commentId: M:ExMath.CUDA.Matrix.CudaMatrix`1.#ctor(System.Int32,System.Int32,`0)
+  name.vb: New(Integer, Integer, T)
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>.CudaMatrix(int, int, T)
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T).New(Integer, Integer, T)
+  nameWithType: CudaMatrix<T>.CudaMatrix(int, int, T)
+  nameWithType.vb: CudaMatrix(Of T).New(Integer, Integer, T)
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1.#ctor*
+  name: CudaMatrix
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html#ExMath_CUDA_Matrix_CudaMatrix_1__ctor_
+  commentId: Overload:ExMath.CUDA.Matrix.CudaMatrix`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>.CudaMatrix
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T).New
+  nameWithType: CudaMatrix<T>.CudaMatrix
+  nameWithType.vb: CudaMatrix(Of T).New
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: CudaMultiply(Matrix<T>, Matrix<T>, int, int, int, int, int, int)
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html#ExMath_CUDA_Matrix_CudaMatrix_1_CudaMultiply_ExMath_Matrix_Matrix__0__ExMath_Matrix_Matrix__0__System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply(ExMath.Matrix.Matrix{`0},ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: CudaMultiply(Matrix(Of T), Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>.CudaMultiply(ExMath.Matrix.Matrix<T>, ExMath.Matrix.Matrix<T>, int, int, int, int, int, int)
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T).CudaMultiply(ExMath.Matrix.Matrix(Of T), ExMath.Matrix.Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+  nameWithType: CudaMatrix<T>.CudaMultiply(Matrix<T>, Matrix<T>, int, int, int, int, int, int)
+  nameWithType.vb: CudaMatrix(Of T).CudaMultiply(Matrix(Of T), Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: CudaMultiply(Matrix<T>, int, int, int, int, int, int)
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html#ExMath_CUDA_Matrix_CudaMatrix_1_CudaMultiply_ExMath_Matrix_Matrix__0__System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply(ExMath.Matrix.Matrix{`0},System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: CudaMultiply(Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>.CudaMultiply(ExMath.Matrix.Matrix<T>, int, int, int, int, int, int)
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T).CudaMultiply(ExMath.Matrix.Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+  nameWithType: CudaMatrix<T>.CudaMultiply(Matrix<T>, int, int, int, int, int, int)
+  nameWithType.vb: CudaMatrix(Of T).CudaMultiply(Matrix(Of T), Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply*
+  name: CudaMultiply
+  href: api/ExMath.CUDA.Matrix.CudaMatrix-1.html#ExMath_CUDA_Matrix_CudaMatrix_1_CudaMultiply_
+  commentId: Overload:ExMath.CUDA.Matrix.CudaMatrix`1.CudaMultiply
+  isSpec: "True"
+  fullName: ExMath.CUDA.Matrix.CudaMatrix<T>.CudaMultiply
+  fullName.vb: ExMath.CUDA.Matrix.CudaMatrix(Of T).CudaMultiply
+  nameWithType: CudaMatrix<T>.CudaMultiply
+  nameWithType.vb: CudaMatrix(Of T).CudaMultiply
+- uid: ExMath.CUDA.Memory
+  name: ExMath.CUDA.Memory
+  href: api/ExMath.CUDA.Memory.html
+  commentId: N:ExMath.CUDA.Memory
+  fullName: ExMath.CUDA.Memory
+  nameWithType: ExMath.CUDA.Memory
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1
+  name: UnmanagedArray<T>
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html
+  commentId: T:ExMath.CUDA.Memory.UnmanagedArray`1
+  name.vb: UnmanagedArray(Of T)
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T)
+  nameWithType: UnmanagedArray<T>
+  nameWithType.vb: UnmanagedArray(Of T)
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: UnmanagedArray(IEnumerable<T>)
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:ExMath.CUDA.Memory.UnmanagedArray`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: New(IEnumerable(Of T))
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.UnmanagedArray(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).New(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: UnmanagedArray<T>.UnmanagedArray(IEnumerable<T>)
+  nameWithType.vb: UnmanagedArray(Of T).New(IEnumerable(Of T))
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.#ctor*
+  name: UnmanagedArray
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1__ctor_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedArray`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.UnmanagedArray
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).New
+  nameWithType: UnmanagedArray<T>.UnmanagedArray
+  nameWithType.vb: UnmanagedArray(Of T).New
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer(ExMath.CUDA.Memory.UnmanagedArray{`0})
+  name: FromUnmanagedPointer(UnmanagedArray<T>)
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1_FromUnmanagedPointer_ExMath_CUDA_Memory_UnmanagedArray__0__
+  commentId: M:ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer(ExMath.CUDA.Memory.UnmanagedArray{`0})
+  name.vb: FromUnmanagedPointer(UnmanagedArray(Of T))
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.FromUnmanagedPointer(ExMath.CUDA.Memory.UnmanagedArray<T>)
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).FromUnmanagedPointer(ExMath.CUDA.Memory.UnmanagedArray(Of T))
+  nameWithType: UnmanagedArray<T>.FromUnmanagedPointer(UnmanagedArray<T>)
+  nameWithType.vb: UnmanagedArray(Of T).FromUnmanagedPointer(UnmanagedArray(Of T))
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer(System.IntPtr,System.Int32)
+  name: FromUnmanagedPointer(nint, int)
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1_FromUnmanagedPointer_System_IntPtr_System_Int32_
+  commentId: M:ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer(System.IntPtr,System.Int32)
+  name.vb: FromUnmanagedPointer(IntPtr, Integer)
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.FromUnmanagedPointer(nint, int)
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).FromUnmanagedPointer(System.IntPtr, Integer)
+  nameWithType: UnmanagedArray<T>.FromUnmanagedPointer(nint, int)
+  nameWithType.vb: UnmanagedArray(Of T).FromUnmanagedPointer(IntPtr, Integer)
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer*
+  name: FromUnmanagedPointer
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1_FromUnmanagedPointer_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedArray`1.FromUnmanagedPointer
+  isSpec: "True"
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.FromUnmanagedPointer
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).FromUnmanagedPointer
+  nameWithType: UnmanagedArray<T>.FromUnmanagedPointer
+  nameWithType.vb: UnmanagedArray(Of T).FromUnmanagedPointer
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.Length
+  name: Length
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1_Length
+  commentId: P:ExMath.CUDA.Memory.UnmanagedArray`1.Length
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.Length
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).Length
+  nameWithType: UnmanagedArray<T>.Length
+  nameWithType.vb: UnmanagedArray(Of T).Length
+- uid: ExMath.CUDA.Memory.UnmanagedArray`1.Length*
+  name: Length
+  href: api/ExMath.CUDA.Memory.UnmanagedArray-1.html#ExMath_CUDA_Memory_UnmanagedArray_1_Length_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedArray`1.Length
+  isSpec: "True"
+  fullName: ExMath.CUDA.Memory.UnmanagedArray<T>.Length
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedArray(Of T).Length
+  nameWithType: UnmanagedArray<T>.Length
+  nameWithType.vb: UnmanagedArray(Of T).Length
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1
+  name: UnmanagedObject<T>
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html
+  commentId: T:ExMath.CUDA.Memory.UnmanagedObject`1
+  name.vb: UnmanagedObject(Of T)
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T)
+  nameWithType: UnmanagedObject<T>
+  nameWithType.vb: UnmanagedObject(Of T)
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.#ctor
+  name: UnmanagedObject()
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1__ctor
+  commentId: M:ExMath.CUDA.Memory.UnmanagedObject`1.#ctor
+  name.vb: New()
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.UnmanagedObject()
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).New()
+  nameWithType: UnmanagedObject<T>.UnmanagedObject()
+  nameWithType.vb: UnmanagedObject(Of T).New()
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.#ctor(`0)
+  name: UnmanagedObject(T)
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1__ctor__0_
+  commentId: M:ExMath.CUDA.Memory.UnmanagedObject`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.UnmanagedObject(T)
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).New(T)
+  nameWithType: UnmanagedObject<T>.UnmanagedObject(T)
+  nameWithType.vb: UnmanagedObject(Of T).New(T)
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.#ctor*
+  name: UnmanagedObject
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1__ctor_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedObject`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.UnmanagedObject
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).New
+  nameWithType: UnmanagedObject<T>.UnmanagedObject
+  nameWithType.vb: UnmanagedObject(Of T).New
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Dispose
+  name: Dispose()
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Dispose
+  commentId: M:ExMath.CUDA.Memory.UnmanagedObject`1.Dispose
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.Dispose()
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).Dispose()
+  nameWithType: UnmanagedObject<T>.Dispose()
+  nameWithType.vb: UnmanagedObject(Of T).Dispose()
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Dispose*
+  name: Dispose
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Dispose_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedObject`1.Dispose
+  isSpec: "True"
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.Dispose
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).Dispose
+  nameWithType: UnmanagedObject<T>.Dispose
+  nameWithType.vb: UnmanagedObject(Of T).Dispose
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Finalize
+  name: ~UnmanagedObject()
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Finalize
+  commentId: M:ExMath.CUDA.Memory.UnmanagedObject`1.Finalize
+  name.vb: ''
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.~UnmanagedObject()
+  fullName.vb: ''
+  nameWithType: UnmanagedObject<T>.~UnmanagedObject()
+  nameWithType.vb: ''
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Finalize*
+  name: ~UnmanagedObject
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Finalize_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedObject`1.Finalize
+  isSpec: "True"
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.~UnmanagedObject
+  nameWithType: UnmanagedObject<T>.~UnmanagedObject
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Pointer
+  name: Pointer
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Pointer
+  commentId: P:ExMath.CUDA.Memory.UnmanagedObject`1.Pointer
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.Pointer
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).Pointer
+  nameWithType: UnmanagedObject<T>.Pointer
+  nameWithType.vb: UnmanagedObject(Of T).Pointer
+- uid: ExMath.CUDA.Memory.UnmanagedObject`1.Pointer*
+  name: Pointer
+  href: api/ExMath.CUDA.Memory.UnmanagedObject-1.html#ExMath_CUDA_Memory_UnmanagedObject_1_Pointer_
+  commentId: Overload:ExMath.CUDA.Memory.UnmanagedObject`1.Pointer
+  isSpec: "True"
+  fullName: ExMath.CUDA.Memory.UnmanagedObject<T>.Pointer
+  fullName.vb: ExMath.CUDA.Memory.UnmanagedObject(Of T).Pointer
+  nameWithType: UnmanagedObject<T>.Pointer
+  nameWithType.vb: UnmanagedObject(Of T).Pointer
 - uid: ExMath.Calculus
   name: ExMath.Calculus
   href: api/ExMath.Calculus.html
