@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\ExMath.CUDA.Core\ExMath.CUDA.Core.vcxproj">
+		  <Name>ExMath.CUDA.Core</Name>
+		  <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+		  <OutputItemType>Content</OutputItemType>
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </ProjectReference>
+	  <ProjectReference Include="..\ExMath\ExMath.csproj" />
+  </ItemGroup>
+
+</Project>
