@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\ExMath.CUDA\ExMath.CUDA.csproj" />
     <ProjectReference Include="..\..\src\ExMath\ExMath.csproj" />
   </ItemGroup>
 
